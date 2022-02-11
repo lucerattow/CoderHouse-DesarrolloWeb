@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="resources/img/logos/propiedades-locas-icon.png">
+
+    <!-- Incluyo las fonts de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Propiedades Locas - Seguro de caucion</title>
+</head>
+
+<body>
+    <!-- Header de la pagina, nav bar y perfil de usuario-->
+    <header>
+        <div class="container">
+            <!-- Logo de la empresa, al hacer click te manda al inicio -->
+            <a id="inicio" href="index.html">
+                <img src="resources/img/logos/propiedades-locas.png" alt="Propiedades Locas">
+            </a>
+            <!-- Barra de navegacion -->
+            <nav>
+                <ul>
+                    <li><a href="Buscar.html">Buscar Propiedades</a></li>
+                    <li><a href="Seguro.html" id="selected">Seguro de Caucion</a></li>
+                    <li><a href="Publicar.html">Publicar</a></li>
+                </ul>
+            </nav>
+            <!-- Perfil logeado en la pagina -->
+            <a id="user" href="Perfil.html">
+                <span>Mi Cuenta</span>
+                <img src="resources/img/users/perfil.jpg" alt="Foto de perfil del usuario">
+            </a>
+        </div>
+    </header>
+
+    <!-- Contenido de la pagina -->
+    <main id="seguro">
+        <div class="container">
+            <h1>Garantias de Alquiler</h1>
+            <p>Ventajas de usar las Garantías de Alquiler de Argenprop</p>
+
+            <section>
+                <div>
+                    <img src="../img/svg/precio.svg" alt="Dos manos sosteniendo una moneda">
+                    <h3>El precio más bajo del mercado</h3>
+                    <p>15% de descuento en un pago o financiación hasta 12 cuotas con tarjeta de crédito.</p>
+                </div>
+
+                <div>
+                    <img src="../img/svg/24hs.svg" alt="Cronometro 24 horas">
+                    <h3>Tu garantía en 24 horas o menos</h3>
+                    <p>El análisis y respuesta de tu solicitud se realiza en un máximo de 24 horas hábiles.</p>
+                </div>
+
+                <div>
+                    <img src="../img/svg/online.svg" alt="Smartphone con un check verde">
+                    <h3>Trámite 100% online y sin costo adicional</h3>
+                    <p>Obtené tu garantía sin moverte de tu casa. Nuestra gestión no tiene ningún costo.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>Obtené tu garantía al mejor precio</h3>
+                <ul>
+                    <label for="RadVivienda"><input type="radio" name="Vivienda" id="RadVivienda"> Vivienda</label>
+                    <label for="RadComercio"><input type="radio" name="Comercio" id="RadComercio"> Comercio</label>
+                </ul>
+
+                <label for="txtValor">Valor del alquiler *</label>
+                <input type="text" id="txtValor">
+
+                <label for="Duracion">Duracion *</label>
+                <select name="Duracion" id="Duracion">
+                    <option value="1 Años">1 Años</option>
+                    <option value="2 Años">2 Años</option>
+                    <option value="3 Años">3 Años</option>
+                </select>
+
+                <label for="txtExpensas">Expensas (si tuviera)</label>
+                <input type="text" id="txtExpensas">
+
+                <label for="txtServicios">Servicios (luz, gas)</label>
+                <input type="text" id="txtServicios">
+            </section>
+        </div>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+        <div class="container">
+            <div class="footer_tarjeta">
+                <a href="index.html">
+                    <img src="resources/img/logos/propiedades-locas.png" alt="Propiedades Locas">
+                </a>
+                <p>
+                    Encontrá propiedades e inmuebles en venta y alquiler, casas, departamentos, terrenos, locales,
+                    oficinas, quintas, PH, cocheras y más en Propiedades Locas.
+                </p>
+            </div>
+
+            <div class="footer_tarjeta">
+                <h2>Mapa del sitio</h2>
+                <ul>
+                    <li><a href="Buscar.html">Buscar Propiedades</a></li>
+                    <li><a href="Seguro.html">Seguro de Caucion</a></li>
+                    <li><a href="Publicar.html"> Publicar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_tarjeta" id="contacto">
+                <h2>Contacto</h2>
+                <p>Escribinos a info@argenprop.com,</p>
+                <p>debido a la situación actual</p>
+                <p>estamos respondiendo todas las consultas vía email.</p>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/argenprop" target="_blank" rel="noopener noreferrer"><img
+                                src="resources/img/logos/facebook-logo.png" alt="Logo de Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/argenprop" target="_blank" rel="noopener noreferrer"><img
+                                src="resources/img/logos/instagram-logo.png" alt="Logo de Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/argenprop" target="_blank" rel="noopener noreferrer"><img
+                                src="resources/img/logos/twitter-logo.png" alt="Logo de Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/Argenprop" target="_blank" rel="noopener noreferrer"><img
+                                src="resources/img/logos/youtube-logo.png" alt="Logo de Youtube"></a>
+                    </li>
+                    <li>
+                        <a href="https://ar.pinterest.com/argenprop" target="_blank" rel="noopener noreferrer"><img
+                                src="resources/img/logos/pintrest-logo.png" alt="Logo de Pintrest"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
