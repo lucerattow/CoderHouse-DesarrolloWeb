@@ -99,6 +99,7 @@ button {
     padding: 0px 10px;
     background-color: var(--color-input-background-color);
     color: var(--color-verde-claro);
+    transition: 0.3s;
 }
 
 button img {
@@ -152,37 +153,49 @@ button.trans:hover {
 }
 
 .icono-superficie {
-    background-image: url(resources/img/inmuebles/icons/004_square_meter.svg);
+    background-image: url(../Images/propiedades/icons/004_square_meter.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icono-dormitorios {
-    background-image: url(resources/img/inmuebles/icons/001_bed.svg);
+    background-image: url(../Images/propiedades/icons/001_bed.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icono-antiguedad {
-    background-image: url(resources/img/inmuebles/icons/009_calendar.svg);
+    background-image: url(../Images/propiedades/icons/009_calendar.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icono-baño {
-    background-image: url(resources/img/inmuebles/icons/003_bath.svg);
+    background-image: url(../Images/propiedades/icons/003_bath.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icono-whatsapp {
-    background-image: url(resources/img/svg/whatsapp.svg);
+    background-image: url(../Images/icons/whatsapp.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icono-filtros {
-    background-image: url(resources/img/svg/filter_list_white_24dp.svg);
+    background-image: url(../Images/icons/filter_list_white_24dp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-buscar {
+    background-image: url(../Images/icons/search_black_48dp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-buscar:hover {
+    background-image: url(../Images/icons/search_white_48dp.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -222,6 +235,7 @@ header nav a {
     padding: 10px;
     border-bottom: 3px solid transparent;
     font-size: large;
+    transition: 0.3s;
 }
 
 header nav a:hover {
@@ -257,7 +271,7 @@ header #user img {
 /* # Main#index
 ================================ */
 main#index .buscador {
-    background-image: url(resources/img/jpg/image-hero-a.jpg);
+    background-image: url(../Images/content/image-hero-a.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -338,14 +352,6 @@ main#index .buscador-barra button {
 
 main#index .buscador-barra button span {
     display: none;
-}
-
-main#index .buscador-barra button img {
-    content:url(resources/img/buttons/search_black_48dp.svg);
-}
-
-main#index .buscador-barra button:hover img {
-    content:url(resources/img/buttons/search_white_48dp.svg);
 }
 
 main#index .informacion {
@@ -546,7 +552,6 @@ main#buscar section .tarjeta div.info .tarjeta-contact button.btn-whatsapp {
 main#seguro .container {
     position:static;
     top: 100px;
-    background-color: red;
 }
 
 /* # main#profile
