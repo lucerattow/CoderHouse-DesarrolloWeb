@@ -1,2 +1,7 @@
-# CoderHouse-ProyectoFinal
- Proyecto final para el curso de desarrollo web de CoderHouse
+# CoderHouse, curso "Desarrollo Web": ProyectoFinal
+
+### Ejecucion: 
+
+> Ingresar en la carpeta Views
+> 
+> hacer doble click en index.html
