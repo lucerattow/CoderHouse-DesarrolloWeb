@@ -99,6 +99,7 @@ button {
     padding: 0px 10px;
     background-color: var(--color-input-background-color);
     color: var(--color-verde-claro);
+    transition: 0.3s;
 }
 
 button img {
@@ -234,6 +235,7 @@ header nav a {
     padding: 10px;
     border-bottom: 3px solid transparent;
     font-size: large;
+    transition: 0.3s;
 }
 
 header nav a:hover {
@@ -550,7 +552,6 @@ main#buscar section .tarjeta div.info .tarjeta-contact button.btn-whatsapp {
 main#seguro .container {
     position:static;
     top: 100px;
-    background-color: red;
 }
 
 /* # main#profile
