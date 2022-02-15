@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- FavIcon -->
-        <link rel="icon" type="image/x-icon" href="resources/img/logos/propiedades-locas-icon.png">
+        <link rel="icon" type="image/x-icon" href="Images/logos/propiedades-locas-icon.png">
 
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -14,31 +14,55 @@
         crossorigin="anonymous">
 
         <!-- Hoja de estilos -->
-        <link rel="stylesheet" href="../Styles/Customize.css">
+        <link rel="stylesheet" href="Styles/Customize.css">
 
         <title>Propiedades Locas - Buscar propiedades</title>
     </head>
     <body>
         <!-- Header de la pagina, nav bar y perfil de usuario-->
-        <header>
+        <header class="bg-dark">
             <div class="container">
-                <!-- Logo de la empresa, al hacer click te manda al inicio -->
-                <a id="inicio" href="index.html">
-                    <img src="../Images/logos/propiedades-locas.png" alt="Propiedades Locas">
-                </a>
-                <!-- Barra de navegacion -->
-                <nav>
-                    <ul>
-                        <li><a href="Buscar.html" id="selected">Buscar Propiedades</a></li>
-                        <li><a href="Seguro.html">Seguro de Caucion</a></li>
-                        <li><a href="Publicar.html">Publicar</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="Images/logos/propiedades-locas.png" alt="Propiedades Locas">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Buscar.html">Buscar propiedades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Seguro.html">Seguro de Caucion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Publicar.html">Publicar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <img class="img-circular img-smaller" src="Images/users/perfil.jpg" alt="Foto de usuario">
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>Mi Cuenta</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="Perfil.html">Mi cuenta</a></li>
+                                        <li><a class="dropdown-item disabled" href="#">Favoritos</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item disabled" href="#">Mis propiedades</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
-                <!-- Perfil logeado en la pagina -->
-                <a id="user" href="Perfil.html">
-                    <span>Mi Cuenta</span>
-                    <img src="../Images/users/perfil.jpg" alt="Foto de perfil del usuario">
-                </a>
             </div>
         </header>
 
@@ -55,7 +79,7 @@
                                 <li class="tags"><span>Alquiler</span></li>
                             </ul>
                             <button class="trans">
-                                <img src="../Images/icons/delete_black_green_48dp.svg" alt="Borrar">
+                                <img src="Images/icons/delete_black_green_48dp.svg" alt="Borrar">
                                 <span>Borrar filtros</span>
                             </button>
                         </div>
@@ -152,7 +176,7 @@
                         <div class="tarjeta">
                             <div class="grid">
                                 <div class="tarjeta-img">
-                                    <img src="../Images/propiedades/001/01.jpg" alt="Foto preview del departamento 001">
+                                    <img src="Images/propiedades/001/01.jpg" alt="Foto preview del departamento 001">
                                 </div>
                                 <div class="info">
                                     <p class="valor">usd <strong>68.000</strong></p>
@@ -184,7 +208,7 @@
                         <div class="tarjeta">
                             <div class="grid">
                                 <div class="tarjeta-img">
-                                    <img src="../Images/propiedades/002/01.jpg" alt="Foto preview del departamento 002">
+                                    <img src="Images/propiedades/002/01.jpg" alt="Foto preview del departamento 002">
                                 </div>
                                 <div class="info">
                                     <p class="valor">usd <strong>145.000</strong></p>
@@ -216,7 +240,7 @@
                         <div class="tarjeta">
                             <div class="grid">
                                 <div class="tarjeta-img">
-                                    <img src="../Images/propiedades/003/01.jpg" alt="Foto preview del departamento 003">
+                                    <img src="Images/propiedades/003/01.jpg" alt="Foto preview del departamento 003">
                                 </div>
                                 <div class="info">
                                     <p class="valor">usd <strong>88.000</strong></p>
@@ -248,7 +272,7 @@
                         <div class="tarjeta">
                             <div class="grid">
                                 <div class="tarjeta-img">
-                                    <img src="../Images/propiedades/004/01.jpg" alt="Foto preview del departamento 004">
+                                    <img src="Images/propiedades/004/01.jpg" alt="Foto preview del departamento 004">
                                 </div>
                                 <div class="info">
                                     <p class="valor">usd <strong>108.000</strong></p>
@@ -281,12 +305,13 @@
             </div>
         </main>
 
+
         <!-- Pie de pagina -->
         <footer>
-            <div class="container">
+            <div class="container-xl">
                 <div class="footer_tarjeta">
                     <a href="index.html">
-                        <img src="../Images/logos/propiedades-locas.png" alt="Propiedades Locas">
+                        <img src="Images/logos/propiedades-locas.png" alt="Propiedades Locas">
                     </a>
                     <p>
                         Encontrá propiedades e inmuebles en venta y alquiler, casas, departamentos, terrenos, locales,
@@ -311,23 +336,23 @@
                     <ul>
                         <li>
                             <a href="https://www.facebook.com/argenprop" target="_blank" rel="noopener noreferrer">
-                                <img src="../Images/logos/facebook-logo.png" alt="Logo de Facebook"></a>
+                                <img class="img-circular img-smaller" src="Images/logos/facebook-logo.png" alt="Logo de Facebook"></a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/argenprop" target="_blank" rel="noopener noreferrer">
-                                <img src="../Images/logos/instagram-logo.png" alt="Logo de Instagram"></a>
+                                <img class="img-circular img-smaller" src="Images/logos/instagram-logo.png" alt="Logo de Instagram"></a>
                         </li>
                         <li>
                             <a href="https://twitter.com/argenprop" target="_blank" rel="noopener noreferrer">
-                                <img src="../Images/logos/twitter-logo.png" alt="Logo de Twitter"></a>
+                                <img class="img-circular img-smaller" src="Images/logos/twitter-logo.png" alt="Logo de Twitter"></a>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/user/Argenprop" target="_blank" rel="noopener noreferrer">
-                                <img src="../Images/logos/youtube-logo.png" alt="Logo de Youtube"></a>
+                                <img class="img-circular img-smaller" src="Images/logos/youtube-logo.png" alt="Logo de Youtube"></a>
                         </li>
                         <li>
                             <a href="https://ar.pinterest.com/argenprop" target="_blank" rel="noopener noreferrer">
-                                <img src="../Images/logos/pintrest-logo.png" alt="Logo de Pintrest"></a>
+                                <img class="img-circular img-smaller" src="Images/logos/pintrest-logo.png" alt="Logo de Pintrest"></a>
                         </li>
                     </ul>
                 </div>
