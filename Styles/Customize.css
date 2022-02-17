@@ -574,6 +574,11 @@ footer #contacto li {
     margin-top: 10px;
 }
 
+footer #contacto li:hover {
+    transition: 0.2s;
+    transform: scale(1.2, 1.2);
+}
+
 footer a, footer a:link, footer a:visited {
     color: white;
     text-decoration: none;
