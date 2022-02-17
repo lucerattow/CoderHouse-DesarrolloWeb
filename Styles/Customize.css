@@ -704,11 +704,28 @@ footer li a:hover {
     }
 }
 
+/* # seguro
+================================ */
+@media screen and (max-width: 1060px) {
+    main#seguro .content {
+        flex-direction: column;
+    }
+    main#seguro .col-8 {
+        width: 100%;
+    }
+    main#seguro .col-4 {
+        width: 100%;
+    }
+}
+
 /* # publicar
 ================================ */
 @media screen and (max-width: 920px) {
     main#publicar .col-6 {
         width: 100%;
+    }
+    main#publicar .info {
+        height: auto!important;
     }
 }
 
@@ -721,6 +738,6 @@ footer li a:hover {
     }
 
     footer .container-xl div {
-        height: 100px;
+        height: 130px;
     }
 }
