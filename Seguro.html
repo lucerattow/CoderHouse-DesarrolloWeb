@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FavIcon -->
+        <link rel="icon" type="image/x-icon" href="Images/logos/propiedades-locas-icon.png">
+
+        <!-- Incluyo las fonts de google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+
+        <!-- Hoja de estilos -->
+        <link rel="stylesheet" href="Styles/Customize.css">
+
+        <title>Propiedades Locas - Seguro de caucion</title>
+    </head>
+
+    <body>
+        <!-- Header de la pagina, nav bar y perfil de usuario-->
+        <header class="bg-dark">
+            <div class="container-xl">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="Images/logos/propiedades-locas.png" alt="Propiedades Locas">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Buscar.html">Buscar propiedades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Seguro.html">Seguro de Caucion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Publicar.html">Publicar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <img class="img-circular img-smaller" src="Images/users/perfil.jpg" alt="Foto de usuario">
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>Mi Cuenta</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="Perfil.html">Mi cuenta</a></li>
+                                        <li><a class="dropdown-item disabled" href="#">Favoritos</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item disabled" href="#">Mis propiedades</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Contenido de la pagina -->
+        <main id="seguro">
+            <div class="container-xl">
+                <h1>Seguro de Caucion</h1>
+                <p>Ventajas de usar las Garantías de Alquiler de Argenprop</p>
+
+                <div class="content d-flex">
+                    <section class="col-8">
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/precio.svg" alt="Dos manos sosteniendo una moneda">
+                            </div>
+                            <div>
+                                <h3>El precio más bajo del mercado</h3>
+                                <p>15% de descuento en un pago o financiación hasta 12 cuotas con tarjeta de crédito.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/24hs.svg" alt="Cronometro 24 horas">
+                            </div>
+                            <div>
+                                <h3>Tu garantía en 24 horas o menos</h3>
+                                <p>El análisis y respuesta de tu solicitud se realiza en un máximo de 24 horas hábiles.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/online.svg" alt="Smartphone con un check verde">
+                            </div>
+                            <div>
+                                <h3>Trámite 100% online y sin costo adicional</h3>
+                                <p>Obtené tu garantía sin moverte de tu casa. Nuestra gestión no tiene ningún costo.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/mejor_seguro.svg" alt="Mejor seguro">
+                            </div>
+                            <div>
+                                <h3>La mejor Garantía del mercado</h3>
+                                <p>La garantía se instrumenta mediante una póliza de seguro de caución.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="col-4">
+                        <div class="card bg-dark text-light">
+                            <div class="card-header">Obtené tu garantía al mejor precio</div>
+                            <div class="card-footer d-flex">
+                                <div class="card-content col-6 d-flex">
+                                    <label for="RadVivienda"><input class="form-check-input" type="radio" name="TipoPropiedad" id="RadVivienda"> Vivienda</label>
+                                    <label for="txtValor">Valor del alquiler *<input class="form-control w-100" type="text" id="txtValor"></label>
+                                    <label for="txtExpensas">Expensas (si tuviera)<input class="form-control w-100" type="text" id="txtExpensas"></label>
+                                </div>
+                                <div class="card-content col-6 d-flex">
+                                    <label for="RadComercio"><input class="form-check-input" type="radio" name="TipoPropiedad" id="RadComercio"> Comercio</label>
+                                    <label for="Duracion">Duracion *
+                                        <select class="form-select w-100" name="Duracion" id="Duracion">
+                                            <option value="1 Años">1 Años</option>
+                                            <option value="2 Años">2 Años</option>
+                                            <option value="3 Años">3 Años</option>
+                                        </select>
+                                    </label>
+                                    <label for="txtServicios">Servicios (luz, gas)<input class="form-control w-100" type="text" id="txtServicios"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+            <div class="bg-light text-dark">
+                <div class="container-xl requeriments">
+                    <h2>Conocé los requisitos para obtener tu garantía:</h2>
+
+                    <div>
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/nacionalidad.svg" alt="nacionalidad">
+                            </div>
+                            <div>
+                                <p>Ser argentino o extranjero (con o sin residencia permanente).</p>
+                                <p>No aplica para extranjeros sin DNI o que perciban ingresos en el exterior.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/edad.svg" alt="edad">
+                            </div>
+                            <div>
+                                <p>Edad: Entre 18 y 70 años.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/confianza.svg" alt="confianza">
+                            </div>
+                            <div>
+                                <p>Buen cumplimiento en sistema financiero.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/ocupacion.svg" alt="ocupacion">
+                            </div>
+                            <div>
+                                <p>Si trabajás en relación de dependencia o sos independiente, necesitás una antigüedad mínima de 12 meses.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/jubilados.svg" alt="jubilados">
+                            </div>
+                            <div>
+                                <p>También podés acceder a tu garantía si sos jubilado o pensionado.</p>
+                            </div>
+                        </div>
+
+                        <div class="mini-card d-flex align-items-center">
+                            <div class="image">
+                                <img src="Images/content/relacion.svg" alt="relacion">
+                            </div>
+                            <div>
+                                <p>Relación alquiler (más expensas y servicios) / ingresos: no mayor al 30% de ingresos brutos o 35% de ingresos netos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Pie de pagina -->
+        <footer>
+            <div class="container-xl">
+                <div class="footer_tarjeta">
+                    <a href="index.html">
+                        <img src="Images/logos/propiedades-locas.png" alt="Propiedades Locas">
+                    </a>
+                    <p>
+                        Encontrá propiedades e inmuebles en venta y alquiler, casas, departamentos, terrenos, locales,
+                        oficinas, quintas, PH, cocheras y más en Propiedades Locas.
+                    </p>
+                </div>
+
+                <div class="footer_tarjeta">
+                    <h2>Mapa del sitio</h2>
+                    <ul>
+                        <li><a href="Buscar.html">Buscar Propiedades</a></li>
+                        <li><a href="Seguro.html">Seguro de Caucion</a></li>
+                        <li><a href="Publicar.html"> Publicar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_tarjeta" id="contacto">
+                    <h2>Contacto</h2>
+                    <p>Escribinos a info@argenprop.com,</p>
+                    <p>debido a la situación actual</p>
+                    <p>estamos respondiendo todas las consultas vía email.</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/argenprop" target="_blank" rel="noopener noreferrer">
+                                <img class="img-circular img-smaller" src="Images/logos/facebook-logo.png" alt="Logo de Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/argenprop" target="_blank" rel="noopener noreferrer">
+                                <img class="img-circular img-smaller" src="Images/logos/instagram-logo.png" alt="Logo de Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/argenprop" target="_blank" rel="noopener noreferrer">
+                                <img class="img-circular img-smaller" src="Images/logos/twitter-logo.png" alt="Logo de Twitter"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/Argenprop" target="_blank" rel="noopener noreferrer">
+                                <img class="img-circular img-smaller" src="Images/logos/youtube-logo.png" alt="Logo de Youtube"></a>
+                        </li>
+                        <li>
+                            <a href="https://ar.pinterest.com/argenprop" target="_blank" rel="noopener noreferrer">
+                                <img class="img-circular img-smaller" src="Images/logos/pintrest-logo.png" alt="Logo de Pintrest"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+</html>
