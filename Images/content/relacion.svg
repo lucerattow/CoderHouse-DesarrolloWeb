@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#77e182"/>
+      <stop offset="1" stop-color="#399c33"/>
+    </linearGradient>
+    <clipPath id="clip-relacion_plata">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="relacion_plata" clip-path="url(#clip-relacion_plata)">
+    <g id="finance-shopping_financial-statistics-pie" transform="translate(1.26 1.26)">
+      <g id="XMLID_10_" transform="translate(22.998 1.481)">
+        <path id="Trazado_14839" data-name="Trazado 14839" d="M49.188,34.953A22.993,22.993,0,0,0,28,3V26L49.191,34.95" transform="translate(-28 -3)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="XMLID_895_">
+        <path id="Trazado_14840" data-name="Trazado 14840" d="M23.74,47.48A23.733,23.733,0,0,1,6.953,6.954a23.74,23.74,0,1,1,26.028,38.66A23.584,23.584,0,0,1,23.74,47.48Zm0-46a22.262,22.262,0,0,0-8.663,42.764A22.262,22.262,0,0,0,32.4,3.233,22.106,22.106,0,0,0,23.74,1.484Z" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1060_" transform="translate(40.061 26.717)">
+        <path id="Trazado_14851" data-name="Trazado 14851" d="M54.742,37.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,54.742,37.487Z" transform="translate(-54 -36.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1059_" transform="translate(43.029 26.717)">
+        <path id="Trazado_14852" data-name="Trazado 14852" d="M58.742,37.487A.735.735,0,0,1,58,36.745a.764.764,0,0,1,.215-.527.777.777,0,0,1,1.053,0,.766.766,0,0,1,.215.527.735.735,0,0,1-.742.742Z" transform="translate(-58 -36.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1056_" transform="translate(31.159 23.749)">
+        <path id="Trazado_14853" data-name="Trazado 14853" d="M42.742,33.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,42.742,33.487Z" transform="translate(-42 -32.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1055_" transform="translate(34.126 23.749)">
+        <path id="Trazado_14854" data-name="Trazado 14854" d="M46.742,33.487a.735.735,0,1,1,.527-.215A.767.767,0,0,1,46.742,33.487Z" transform="translate(-46 -32.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1054_" transform="translate(37.094 23.749)">
+        <path id="Trazado_14855" data-name="Trazado 14855" d="M50.742,33.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,50,32.745a.742.742,0,1,1,1.484,0,.768.768,0,0,1-.215.527A.782.782,0,0,1,50.742,33.487Z" transform="translate(-50 -32.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1053_" transform="translate(40.061 23.749)">
+        <path id="Trazado_14856" data-name="Trazado 14856" d="M54.742,33.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,54.742,33.487Z" transform="translate(-54 -32.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1052_" transform="translate(43.029 23.749)">
+        <path id="Trazado_14857" data-name="Trazado 14857" d="M58.742,33.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,58.742,33.487Z" transform="translate(-58 -32.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1051_" transform="translate(25.224 20.782)">
+        <path id="Trazado_14858" data-name="Trazado 14858" d="M34.742,29.487a.767.767,0,0,1-.527-.215.742.742,0,1,1,1.053,0A.767.767,0,0,1,34.742,29.487Z" transform="translate(-34 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1050_" transform="translate(28.191 20.782)">
+        <path id="Trazado_14859" data-name="Trazado 14859" d="M38.742,29.487a.745.745,0,1,1,.742-.742.768.768,0,0,1-.215.527A.781.781,0,0,1,38.742,29.487Z" transform="translate(-38 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1049_" transform="translate(31.159 20.782)">
+        <path id="Trazado_14860" data-name="Trazado 14860" d="M42.742,29.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,42,28.745a.745.745,0,1,1,.742.742Z" transform="translate(-42 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1048_" transform="translate(34.126 20.782)">
+        <path id="Trazado_14861" data-name="Trazado 14861" d="M46.742,29.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,46,28.745a.745.745,0,1,1,.742.742Z" transform="translate(-46 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1047_" transform="translate(37.094 20.782)">
+        <path id="Trazado_14862" data-name="Trazado 14862" d="M50.742,29.487a.735.735,0,1,1,.527-.215A.767.767,0,0,1,50.742,29.487Z" transform="translate(-50 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1046_" transform="translate(40.061 20.782)">
+        <path id="Trazado_14863" data-name="Trazado 14863" d="M54.742,29.487a.745.745,0,1,1,.742-.742.768.768,0,0,1-.215.527A.781.781,0,0,1,54.742,29.487Z" transform="translate(-54 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1045_" transform="translate(43.029 20.782)">
+        <path id="Trazado_14864" data-name="Trazado 14864" d="M58.742,29.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,58,28.745a.745.745,0,1,1,.742.742Z" transform="translate(-58 -28.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1043_" transform="translate(25.224 17.814)">
+        <path id="Trazado_14865" data-name="Trazado 14865" d="M34.742,25.487a.781.781,0,0,1-.527-.215.752.752,0,0,1,0-1.053.745.745,0,1,1,.527,1.269Z" transform="translate(-34 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1042_" transform="translate(28.191 17.814)">
+        <path id="Trazado_14866" data-name="Trazado 14866" d="M38.742,25.487A.735.735,0,0,1,38,24.745a.764.764,0,0,1,.215-.527.745.745,0,0,1,1.053,1.053A.767.767,0,0,1,38.742,25.487Z" transform="translate(-38 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1041_" transform="translate(31.159 17.814)">
+        <path id="Trazado_14867" data-name="Trazado 14867" d="M42.742,25.487a.767.767,0,0,1-.527-.215.745.745,0,0,1,1.053-1.053.766.766,0,0,1,.215.527.735.735,0,0,1-.742.742Z" transform="translate(-42 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1036_" transform="translate(34.126 17.814)">
+        <path id="Trazado_14868" data-name="Trazado 14868" d="M46.742,25.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,46.742,25.487Z" transform="translate(-46 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1035_" transform="translate(37.094 17.814)">
+        <path id="Trazado_14869" data-name="Trazado 14869" d="M50.742,25.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,50.742,25.487Z" transform="translate(-50 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1034_" transform="translate(40.061 17.814)">
+        <path id="Trazado_14870" data-name="Trazado 14870" d="M54.742,25.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,54.742,25.487Z" transform="translate(-54 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1033_" transform="translate(43.029 17.814)">
+        <path id="Trazado_14871" data-name="Trazado 14871" d="M58.742,25.487A.735.735,0,0,1,58,24.745a.764.764,0,0,1,.215-.527.745.745,0,1,1,.527,1.269Z" transform="translate(-58 -24.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1032_" transform="translate(25.224 14.847)">
+        <path id="Trazado_14872" data-name="Trazado 14872" d="M34.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,34.742,21.487Z" transform="translate(-34 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1031_" transform="translate(28.191 14.847)">
+        <path id="Trazado_14873" data-name="Trazado 14873" d="M38.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,38.742,21.487Z" transform="translate(-38 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1030_" transform="translate(31.159 14.847)">
+        <path id="Trazado_14874" data-name="Trazado 14874" d="M42.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,42.742,21.487Z" transform="translate(-42 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1029_" transform="translate(34.126 14.847)">
+        <path id="Trazado_14875" data-name="Trazado 14875" d="M46.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,46.742,21.487Z" transform="translate(-46 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1028_" transform="translate(37.094 14.847)">
+        <path id="Trazado_14876" data-name="Trazado 14876" d="M50.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,50.742,21.487Z" transform="translate(-50 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1027_" transform="translate(40.061 14.847)">
+        <path id="Trazado_14877" data-name="Trazado 14877" d="M54.742,21.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,54.742,21.487Z" transform="translate(-54 -20.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1025_" transform="translate(25.224 11.882)">
+        <path id="Trazado_14878" data-name="Trazado 14878" d="M34.742,17.488a.735.735,0,1,1,.527-.215A.781.781,0,0,1,34.742,17.488Z" transform="translate(-34 -16.016)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1024_" transform="translate(28.191 11.879)">
+        <path id="Trazado_14879" data-name="Trazado 14879" d="M38.742,17.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,38.742,17.487Z" transform="translate(-38 -16.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1023_" transform="translate(31.159 11.879)">
+        <path id="Trazado_14880" data-name="Trazado 14880" d="M42.742,17.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,42.742,17.487Z" transform="translate(-42 -16.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1019_" transform="translate(34.126 11.879)">
+        <path id="Trazado_14881" data-name="Trazado 14881" d="M46.742,17.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,46.742,17.487Z" transform="translate(-46 -16.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1018_" transform="translate(37.094 11.879)">
+        <path id="Trazado_14882" data-name="Trazado 14882" d="M50.742,17.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,50.742,17.487Z" transform="translate(-50 -16.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1017_" transform="translate(40.061 11.879)">
+        <path id="Trazado_14883" data-name="Trazado 14883" d="M54.742,17.487A.735.735,0,0,1,54,16.745a.764.764,0,0,1,.215-.527.745.745,0,1,1,.527,1.269Z" transform="translate(-54 -16.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1015_" transform="translate(25.224 8.912)">
+        <path id="Trazado_14884" data-name="Trazado 14884" d="M34.742,13.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,34,12.745a.745.745,0,1,1,.742.742Z" transform="translate(-34 -12.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1014_" transform="translate(28.191 8.912)">
+        <path id="Trazado_14885" data-name="Trazado 14885" d="M38.742,13.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,38.742,13.487Z" transform="translate(-38 -12.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1013_" transform="translate(31.159 8.912)">
+        <path id="Trazado_14886" data-name="Trazado 14886" d="M42.742,13.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,42.742,13.487Z" transform="translate(-42 -12.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1012_" transform="translate(34.126 8.912)">
+        <path id="Trazado_14887" data-name="Trazado 14887" d="M46.742,13.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,46.742,13.487Z" transform="translate(-46 -12.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1011_" transform="translate(37.094 8.912)">
+        <path id="Trazado_14888" data-name="Trazado 14888" d="M50.742,13.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,50.742,13.487Z" transform="translate(-50 -12.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1008_" transform="translate(25.224 5.944)">
+        <path id="Trazado_14889" data-name="Trazado 14889" d="M34.742,9.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,34.742,9.487Z" transform="translate(-34 -8.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1007_" transform="translate(28.191 5.944)">
+        <path id="Trazado_14890" data-name="Trazado 14890" d="M38.742,9.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,38.742,9.487Z" transform="translate(-38 -8.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1006_" transform="translate(31.159 5.944)">
+        <path id="Trazado_14891" data-name="Trazado 14891" d="M42.742,9.487a.781.781,0,0,1-.527-.215A.767.767,0,0,1,42,8.745a.742.742,0,0,1,1.269-.527.752.752,0,0,1,0,1.053A.781.781,0,0,1,42.742,9.487Z" transform="translate(-42 -8.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_1002_" transform="translate(34.126 5.944)">
+        <path id="Trazado_14892" data-name="Trazado 14892" d="M46.742,9.487a.735.735,0,1,1,.527-.215A.781.781,0,0,1,46.742,9.487Z" transform="translate(-46 -8.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_998_" transform="translate(25.224 2.977)">
+        <path id="Trazado_14893" data-name="Trazado 14893" d="M34.742,5.487A.735.735,0,0,1,34,4.745a.742.742,0,0,1,1.269-.527.752.752,0,0,1,0,1.053A.781.781,0,0,1,34.742,5.487Z" transform="translate(-34 -4.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_997_" transform="translate(28.191 2.977)">
+        <path id="Trazado_14894" data-name="Trazado 14894" d="M38.742,5.487A.735.735,0,0,1,38,4.745a.742.742,0,1,1,1.269.527A.781.781,0,0,1,38.742,5.487Z" transform="translate(-38 -4.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_991_" transform="translate(37.094 26.717)">
+        <path id="Trazado_14895" data-name="Trazado 14895" d="M50.742,37.487a.744.744,0,1,1,.527-1.269.766.766,0,0,1,.215.527.735.735,0,0,1-.742.742Z" transform="translate(-50 -36.012)" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_2945_" transform="translate(22.998)">
+        <path id="Trazado_14896" data-name="Trazado 14896" d="M52.933,33.434a.738.738,0,0,1-.288-.059L31.453,24.423A.741.741,0,0,1,31,23.74v-23a.742.742,0,1,1,1.484,0V23.248l20.738,8.761a.742.742,0,0,1-.289,1.425Z" transform="translate(-31)" fill="#2e3641"/>
+      </g>
+    </g>
+    <g id="Grupo_12556" data-name="Grupo 12556" transform="translate(-1338 560)">
+      <g id="XMLID_3117_" transform="translate(1351 -570)">
+        <circle id="Elipse_283" data-name="Elipse 283" cx="11" cy="11" r="11" transform="translate(1 24)" fill="#fff"/>
+      </g>
+      <g id="XMLID_3105_" transform="translate(1351 -566)">
+        <path id="Trazado_15115" data-name="Trazado 15115" d="M12,43A12,12,0,1,1,24,31,12.013,12.013,0,0,1,12,43Zm0-22A10,10,0,1,0,22,31,10.011,10.011,0,0,0,12,21Z" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_3082_" transform="translate(1351 -566)">
+        <path id="Trazado_15116" data-name="Trazado 15116" d="M12.267,38c-1.569,0-3.94,0-4.959-2.451a1,1,0,0,1,1.848-.768C9.591,35.831,10.43,36,12.267,36,13.5,36,14.98,35.651,15,33.988a2.034,2.034,0,0,0-1.367-1.9A4.085,4.085,0,0,0,12.387,32L11.669,32a5.552,5.552,0,0,1-2.092-.253A4.014,4.014,0,0,1,7,28c0-2.43,1.858-4,4.733-4,1.569,0,3.94,0,4.959,2.452a1,1,0,0,1-1.848.767C14.409,26.169,13.571,26,11.733,26,10.713,26,9,26.26,9,28a2.032,2.032,0,0,0,1.28,1.878A3.948,3.948,0,0,0,11.64,30L12.351,30a5.734,5.734,0,0,1,1.89.188A4.029,4.029,0,0,1,17,34C16.972,36.435,15.114,38,12.267,38Z" fill="#2e3641"/>
+      </g>
+      <g id="XMLID_3079_" transform="translate(1351 -566)">
+        <path id="Trazado_15117" data-name="Trazado 15117" d="M12,39a1,1,0,0,1-1-1V24a1,1,0,0,1,2,0V38A1,1,0,0,1,12,39Z" fill="#2e3641"/>
+      </g>
+    </g>
+  </g>
+</svg>

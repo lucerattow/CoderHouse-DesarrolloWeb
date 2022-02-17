@@ -100,6 +100,12 @@ body {
     background-size: cover;
 }
 
+.icon-basura {
+    background-image: url(../Images/icons/delete_black_white_48dp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* # Main#index
 ================================ */
 main#index .buscador {
@@ -210,19 +216,10 @@ main#index .informacion iframe {
 
 /* # main#buscar
 ================================ */
-main#buscar .container {
-    display: flex;
-    justify-content: space-between;
-}
-
 main#buscar aside {
-    width: calc(25% - 20px);
-}
-
-main#buscar aside {
-    display: inline-block;
     padding: 10px 0px;
     vertical-align: top;
+    display: inline-block;
 }
 
 main#buscar aside li {
@@ -230,14 +227,13 @@ main#buscar aside li {
 }
 
 main#buscar aside li.tags {
-    display: inline-block;
+    padding: 5px;
 }
 
 main#buscar aside .filtros {
     display: block;
     box-shadow: var(--box-shadow-border);
-    background-color: var(--color-background-header);
-    border-radius: var(--border-radius-grande);
+    border-radius: var(--border-radius-medio);
     justify-content: space-between;
 }
 
@@ -263,9 +259,14 @@ main#buscar aside .filtros button {
 
 main#buscar section {
     display: inline-block;
-    width: 74%;
     margin-bottom: 10px;
     text-align: 0;
+    padding: 0px 10px;
+}
+
+main#buscar section h1 {
+    display: inline-block;
+    font-size: 1.5rem;
 }
 
 main#buscar section .Buscador {
@@ -292,7 +293,6 @@ main#buscar section .Buscador .filtros div span {
 }
 
 main#buscar section .Buscador .filtros button {
-    border: 1px solid var(--color-input-placeholder-color);
     margin-left: 10px;
 }
 
@@ -302,14 +302,31 @@ main#buscar section .tarjetas-container {
     justify-content: space-around;
 }
 
-main#buscar section .tarjeta {
+main#buscar section .card-container {
+    padding: 5px;
+    background-color: transparent;
+}
+main#buscar section .card {
     box-shadow: var(--box-shadow-border);
     background-color: var(--color-background-header);
     border: 0px solid black;
-    border-radius: var(--border-radius-grande);
+    border-radius: var(--border-radius-medio);
     display: inline-block;
     margin: 10px 0px 10px 0px;
     overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+main#buscar section .card .carousel-inner {
+    height: 250px;
+}
+main#buscar section .card-body ul,
+main#buscar section .card-body li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 main#buscar section .tarjeta .grid {
@@ -380,9 +397,53 @@ main#buscar section .tarjeta div.info .tarjeta-contact button.btn-whatsapp {
 
 /* # main#seguro
 ================================ */
-main#seguro .container {
-    position:static;
-    top: 100px;
+main#seguro .image {
+    margin-right: 20px;
+    width: 60px;
+}
+main#seguro h3,
+main#seguro p {
+    margin: 0;
+    font-size: 16px;
+}
+main#seguro .mini-card {
+    margin-bottom: 20px;
+}
+main#seguro .card-content {
+    flex-direction: column;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+main#seguro .card-content label {
+    margin-top: 5px;
+}
+main#seguro .requeriments {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* # main#publicar
+================================ */
+main#publicar h1 {
+    margin-bottom: 10px;
+}
+main#publicar section {
+    padding: 10px;
+    flex-direction: column;
+}
+main#publicar .content {
+    flex-wrap: wrap;
+}
+main#publicar section .imagen {
+    background-color: white;
+    overflow: hidden;
+    height: 200px;
+    border-radius: var(--border-radius-grande)
+}
+main#publicar section .info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 250px;
 }
 
 /* # main#profile
@@ -421,6 +482,7 @@ main#profile #password a {
 
 main#profile #email a:hover,
 main#profile #password a:hover {
+    color: var(--color-verde-claro);
     margin: 0px 20px;
     padding: 10px 0px;
     text-decoration: underline;
@@ -443,9 +505,6 @@ main#profile .grid-item input[type="text"] {
     padding: 0px 15px;
     height: 40px;
     width: 85%;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: var(--border-radius-medio);
     outline: none;
 }
 
@@ -465,7 +524,6 @@ main#profile .container li input {
 
 main#profile .container button {
     margin: 10px 0px;
-    border-radius: var(--border-radius-medio);
     width: 188px;
     font-size: 15px;
 }
@@ -626,7 +684,7 @@ footer li a:hover {
 }
 
 @media screen and (max-width: 680px) {
-    main#buscar section .tarjeta {
+    main#buscar section .col-6 {
         width: 100%;
     }
 
@@ -643,6 +701,14 @@ footer li a:hover {
 
     main#buscar section .Buscador .filtros button {
         margin-top: 10px;
+    }
+}
+
+/* # publicar
+================================ */
+@media screen and (max-width: 920px) {
+    main#publicar .col-6 {
+        width: 100%;
     }
 }
 
