@@ -1,0 +1,88 @@
+@import '../base/variables';
+@import '../base/maps';
+
+body {
+    background-color: $color-background;
+    color: $color-texto;
+
+    main#profile {
+        color: $color-texto;
+
+        h1 {
+            padding: 20px 0px;
+            font-size: 30px;
+        }
+
+        h2 {
+            padding: 10px 0px;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: unset;
+
+            li {
+                margin: 5px 0px;
+                display: block;
+
+                input {
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+        }
+
+        button {
+            margin: 10px 0px;
+            width: 188px;
+            font-size: 15px;
+        }
+
+        #email, #password {
+            margin: 15px 0px;
+
+            span {
+                margin-right: 20px;
+            }
+
+            a {
+                color: $color-primary;
+                margin: 0px 20px;
+                padding: 10px 0px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-primary;
+                    margin: 0px 20px;
+                    padding: 10px 0px;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            padding-bottom: 20px;
+        }
+
+        .grid-item {
+            margin-bottom: 15px;
+
+            input[type="text"] {
+                display: grid;
+                margin-top: 10px;
+                padding: 0px 15px;
+                height: 40px;
+                outline: none;
+            }
+        }
+
+        @media screen and (min-width: 500px) {
+            label {
+                width: 460px;
+            }
+        }
+    }
+}

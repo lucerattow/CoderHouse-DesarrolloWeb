@@ -1,0 +1,19 @@
+{
+  "name": "coderhouse-proyectofinal",
+  "version": "1.0.0",
+  "description": "proyecto final para coder house",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucerattow/CoderHouse-ProyectoFinal.git"
+  },
+  "author": "lucas ceratto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucerattow/CoderHouse-ProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/lucerattow/CoderHouse-ProyectoFinal#readme"
+}

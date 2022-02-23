@@ -1,0 +1,65 @@
+@import '../base/variables';
+@import '../base/maps';
+
+footer {
+    background-color: $color-background-footer;
+
+    img {
+        height: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        vertical-align: baseline;
+    }
+
+    li {
+        display: block;
+
+        a:hover {
+            color: $color-primary;
+        }
+    }
+
+    a, a:link, a:visited {
+        color: $color-texto;
+        text-decoration: none;
+    }
+
+    .container-xl {
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        min-height: 200px;
+        column-gap: 20px;
+    }
+
+    .footer_tarjeta {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #contacto li {
+        float: left;
+        margin: 5px;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 680px) {
+        .container-xl {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                height: 130px;
+            }
+        }
+    }
+}

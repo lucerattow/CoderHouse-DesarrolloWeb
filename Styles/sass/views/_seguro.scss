@@ -1,0 +1,50 @@
+@import '../base/variables';
+@import '../base/maps';
+
+body {
+    background-color: $color-background;
+    color: $color-texto;
+
+    main#seguro {
+        h3, p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .image {
+            margin-right: 20px;
+            width: 60px;
+        }
+
+        .mini-card {
+            margin-bottom: 20px;
+        }
+
+        .card-content {
+            flex-direction: column;
+            padding: 0px 5px;
+            margin-bottom: 10px;
+
+            label {
+                margin-top: 5px;
+            }
+        }
+
+        .requeriments {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        @media screen and (max-width: 1060px) {
+            .content {
+                flex-direction: column;
+            }
+            .col-8 {
+                width: 100%;
+            }
+            .col-4 {
+                width: 100%;
+            }
+        }
+    }
+}

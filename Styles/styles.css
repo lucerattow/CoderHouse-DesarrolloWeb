@@ -1,0 +1,607 @@
+@charset "UTF-8";
+.img-circular {
+  border: 0px solid black;
+  border-radius: 100%;
+}
+
+.img-smaller {
+  width: 40px;
+  height: 40px;
+}
+
+.icono-pequeño {
+  height: 20px;
+  width: 20px;
+}
+
+.icono-grande {
+  height: 40px;
+  width: 40px;
+}
+
+.icono-superficie {
+  background-image: url(../Images/propiedades/icons/004_square_meter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icono-dormitorios {
+  background-image: url(../Images/propiedades/icons/001_bed.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icono-antiguedad {
+  background-image: url(../Images/propiedades/icons/009_calendar.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icono-baño {
+  background-image: url(../Images/propiedades/icons/003_bath.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icono-whatsapp {
+  background-image: url(../Images/icons/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icono-filtros {
+  background-image: url(../Images/icons/filter_list_white_24dp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-buscar {
+  background-image: url(../Images/icons/search_white_48dp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-basura {
+  background-image: url(../Images/icons/delete_black_white_48dp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #1b1b1b;
+}
+footer img {
+  height: 40px;
+}
+footer h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  vertical-align: baseline;
+}
+footer li {
+  display: block;
+}
+footer li a:hover {
+  color: #0D6EFD;
+}
+footer a, footer a:link, footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+footer .container-xl {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  min-height: 200px;
+  column-gap: 20px;
+}
+footer .footer_tarjeta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+footer #contacto li {
+  float: left;
+  margin: 5px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 680px) {
+  footer .container-xl {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container-xl div {
+    height: 130px;
+  }
+}
+
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#index .buscador {
+  background-image: url(../Images/content/image-hero-a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  height: 450px;
+}
+body main#index .buscador h1, body main#index .buscador h2, body main#index .buscador p {
+  text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+body main#index .buscador h1 {
+  font-size: 26px;
+}
+body main#index .buscador h2 {
+  font-size: 40px;
+}
+body main#index .buscador p {
+  font-size: 10px;
+}
+body main#index .tipo-operacion {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+body main#index .tipo-operacion button {
+  border-radius: 5px;
+  margin-right: 6px;
+  width: 188px;
+  font-size: 15px;
+}
+body main#index .buscador-barra {
+  display: grid;
+  grid-template-columns: 177px auto 55px;
+  height: 55px;
+  font-size: 16px;
+}
+body main#index .buscador-barra select, body main#index .buscador-barra input, body main#index .buscador-barra button {
+  border-width: 0px;
+  height: 55px;
+  font-size: 16px;
+}
+body main#index .buscador-barra select {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+  padding: 10px;
+}
+body main#index .buscador-barra select:focus {
+  border-bottom-left-radius: 0px;
+}
+body main#index .buscador-barra input {
+  border-radius: 0px;
+  padding: 0px 10px;
+}
+body main#index .buscador-barra button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body main#index .buscador-barra button span {
+  display: none;
+}
+body main#index .informacion {
+  display: block;
+  padding-top: 100px;
+  font-size: 24px;
+  text-align: center;
+}
+body main#index .informacion h3 {
+  color: white;
+  text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 30px;
+}
+body main#index .informacion iframe {
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 700px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 650px) {
+  body main#index .buscador {
+    height: 500px;
+  }
+  body main#index .buscador .tipo-operacion {
+    padding-top: 40px;
+  }
+  body main#index .buscador .tipo-operacion li {
+    border-radius: 10px;
+    width: 100%;
+  }
+  body main#index .buscador .tipo-operacion h2 {
+    width: 100%;
+  }
+  body main#index .buscador .buscador-barra {
+    display: flex;
+    flex-direction: column;
+  }
+  body main#index .buscador .buscador-barra input {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  body main#index .buscador .buscador-barra select {
+    border-radius: 10px;
+    width: 100%;
+  }
+  body main#index .buscador .buscador-barra button span {
+    display: inline-block;
+  }
+  body main#index .buscador .buscador-barra button img {
+    display: none;
+  }
+  body main#index .informacion iframe {
+    border-radius: 10px;
+    width: 100%;
+  }
+  body main#index .buscador button {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  body main#index .buscador {
+    height: 530px;
+  }
+}
+
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#buscar aside {
+  padding: 10px 0px;
+  vertical-align: top;
+  display: inline-block;
+}
+body main#buscar aside li {
+  display: block;
+}
+body main#buscar aside li.tags {
+  padding: 5px;
+}
+body main#buscar aside .filtros {
+  display: block;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+body main#buscar aside .filtros .filtros-card {
+  padding: 10px;
+  border-bottom: 1px solid #171b1f;
+}
+body main#buscar aside .filtros ul, body main#buscar aside .filtros input[type=text], body main#buscar aside .filtros h2 {
+  margin-bottom: 10px;
+}
+body main#buscar aside .filtros h2 {
+  font-size: 26px;
+}
+body main#buscar aside .filtros input[type=text], body main#buscar aside .filtros h2 {
+  width: 100%;
+}
+body main#buscar section {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: 0;
+  padding: 0px 10px;
+}
+body main#buscar section h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+body main#buscar section .Buscador {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+body main#buscar section .Buscador .filtros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main#buscar section .Buscador .filtros div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main#buscar section .Buscador .filtros div span {
+  margin-right: 10px;
+}
+body main#buscar section .Buscador .filtros button {
+  margin-left: 10px;
+}
+body main#buscar section .tarjetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body main#buscar section .card-container {
+  padding: 5px;
+  background-color: transparent;
+}
+body main#buscar section .card {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  background-color: #212529;
+  border: 0px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+}
+body main#buscar section .card .carousel-inner {
+  height: 250px;
+}
+body main#buscar section .card-body ul, body main#buscar section .card-body li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+body main#buscar section .tarjeta .grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 330px;
+}
+body main#buscar section .tarjeta img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px auto;
+}
+body main#buscar section .tarjeta div.tarjeta-img {
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+body main#buscar section .tarjeta div.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+body main#buscar section .tarjeta div.info li * {
+  margin: 5px;
+}
+body main#buscar section .tarjeta div.info ul, body main#buscar section .tarjeta div.info li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body main#buscar section .tarjeta div.info .valor {
+  font-size: 1.5rem;
+}
+body main#buscar section .tarjeta div.info .expensas {
+  font-size: 1rem;
+}
+body main#buscar section .tarjeta div.info .tarjeta-contact {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+body main#buscar section .tarjeta div.info .tarjeta-contact button {
+  margin-left: 10px;
+}
+body main#buscar section .tarjeta div.info .tarjeta-contact button.btn-whatsapp {
+  border-radius: 100%;
+  width: 33px;
+  padding: 0;
+}
+@media screen and (min-width: 1025px) {
+  body main#buscar section .Buscador button {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body main#buscar aside {
+    display: none;
+  }
+  body main#buscar section {
+    width: 100%;
+  }
+  body main#buscar section .buscador button {
+    display: block;
+  }
+}
+@media screen and (max-width: 850px) {
+  body main#buscar section .Buscador {
+    flex-direction: column;
+  }
+  body main#buscar section .Buscador h1 {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body main#buscar section .tarjeta {
+    width: calc(50% - 20px);
+  }
+  body main#buscar section .tarjeta .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+@media screen and (max-width: 680px) {
+  body main#buscar section .col-6 {
+    width: 100%;
+  }
+  body main#buscar section .tarjeta .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+@media screen and (max-width: 350px) {
+  body main#buscar section .Buscador .filtros {
+    flex-direction: column;
+  }
+  body main#buscar section .Buscador .filtros button {
+    margin-top: 10px;
+  }
+}
+
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#seguro h3, body main#seguro p {
+  margin: 0;
+  font-size: 16px;
+}
+body main#seguro .image {
+  margin-right: 20px;
+  width: 60px;
+}
+body main#seguro .mini-card {
+  margin-bottom: 20px;
+}
+body main#seguro .card-content {
+  flex-direction: column;
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+body main#seguro .card-content label {
+  margin-top: 5px;
+}
+body main#seguro .requeriments {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1060px) {
+  body main#seguro .content {
+    flex-direction: column;
+  }
+  body main#seguro .col-8 {
+    width: 100%;
+  }
+  body main#seguro .col-4 {
+    width: 100%;
+  }
+}
+
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#publicar h1 {
+  margin-bottom: 10px;
+}
+body main#publicar section {
+  padding: 10px;
+  flex-direction: column;
+}
+body main#publicar section .imagen {
+  background-color: white;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 20px;
+}
+body main#publicar section .info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 250px;
+}
+body main#publicar .content {
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 920px) {
+  body main#publicar .col-6 {
+    width: 100%;
+  }
+  body main#publicar .info {
+    height: auto !important;
+  }
+}
+
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#profile {
+  color: white;
+}
+body main#profile h1 {
+  padding: 20px 0px;
+  font-size: 30px;
+}
+body main#profile h2 {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+body main#profile ul {
+  list-style: unset;
+}
+body main#profile ul li {
+  margin: 5px 0px;
+  display: block;
+}
+body main#profile ul li input {
+  height: 15px;
+  width: 15px;
+}
+body main#profile button {
+  margin: 10px 0px;
+  width: 188px;
+  font-size: 15px;
+}
+body main#profile #email, body main#profile #password {
+  margin: 15px 0px;
+}
+body main#profile #email span, body main#profile #password span {
+  margin-right: 20px;
+}
+body main#profile #email a, body main#profile #password a {
+  color: #0D6EFD;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  text-decoration: none;
+}
+body main#profile #email a:hover, body main#profile #password a:hover {
+  color: #0D6EFD;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  text-decoration: underline;
+}
+body main#profile .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  padding-bottom: 20px;
+}
+body main#profile .grid-item {
+  margin-bottom: 15px;
+}
+body main#profile .grid-item input[type=text] {
+  display: grid;
+  margin-top: 10px;
+  padding: 0px 15px;
+  height: 40px;
+  outline: none;
+}
+@media screen and (min-width: 500px) {
+  body main#profile label {
+    width: 460px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

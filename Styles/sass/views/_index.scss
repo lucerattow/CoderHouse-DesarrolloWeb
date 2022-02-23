@@ -1,0 +1,177 @@
+@import '../base/variables';
+@import '../base/maps';
+
+body {
+    background-color: $color-background;
+    color: $color-texto;
+    main#index {
+        .buscador {
+            background-image: url(../Images/content/image-hero-a.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: map-get($shadow, "bottom");
+            height: 450px;
+
+            h1, h2, p {
+                text-shadow: map-get($shadow, "titles");
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+
+        .tipo-operacion {
+            padding-top: 100px;
+            padding-bottom: 10px;
+
+            button {
+                border-radius: map-get($borderad, "min");
+                margin-right: 6px;
+                width: 188px;
+                font-size: 15px;
+            }
+        }
+
+        .buscador-barra {
+            display: grid;
+            grid-template-columns: 177px auto 55px;
+            height: 55px;
+            font-size: 16px;
+
+            select, input, button {
+                border-width: 0px;
+                height: 55px;
+                font-size: 16px;
+            }
+
+            select {
+                border-top-left-radius: map-get($borderad, "min");
+                border-top-right-radius: 0px;
+                border-bottom-left-radius: map-get($borderad, "min");
+                border-bottom-right-radius: 0px;
+                padding: 10px;
+
+                &:focus {
+                    border-bottom-left-radius: 0px;
+                }
+            }
+
+            input {
+                border-radius: 0px;
+                padding: 0px 10px;
+            }
+
+            button {
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border-top-right-radius: map-get($borderad, "min");
+                border-bottom-right-radius: map-get($borderad, "min");
+
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        .informacion {
+            display: block;
+            padding-top: 100px;
+            font-size: 24px;
+            text-align: center;
+
+            h3 {
+                color: white;
+                text-shadow: map-get($shadow, "titles");
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            iframe {
+                margin-bottom: 50px;
+                max-width: 100%;
+                width: 700px;
+                height: 450px;
+                border-radius: map-get($borderad, "big");
+                box-shadow: map-get($shadow, "bottom");
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+            .buscador {
+                height: 500px;
+
+                .tipo-operacion {
+                    padding-top: 40px;
+
+                    li {
+                        border-radius: map-get($borderad, "med");
+                        width: 100%;
+                    }
+
+                    h2 {
+                        width: 100%;
+                    }
+                }
+                .buscador-barra {
+                    display: flex;
+                    flex-direction: column;
+
+                    input {
+                        border-radius: map-get($borderad, "med");
+                        margin-top: 10px;
+                        padding: 10px;
+                        width: 100%;
+                    }
+
+                    select {
+                        border-radius: map-get($borderad, "med");
+                        width: 100%;
+                    }
+
+                    button {
+
+                        span {
+                            display: inline-block;
+                        }
+
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .informacion {
+                iframe {
+                    border-radius: map-get($borderad, "med");
+                    width: 100%;
+                }
+            }
+            .buscador
+            {
+                button {
+                    border-radius: map-get($borderad, "med");
+                    margin-top: 10px;
+                    padding: 10px;
+                    width: 100%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            .buscador {
+                height: 530px;
+            }
+        }
+    }
+}
