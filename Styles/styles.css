@@ -55,7 +55,7 @@
   background-size: cover;
 }
 
-.icon-buscar {
+.icon-buscar, body main#index .buscador-barra button {
   background-image: url(../Images/icons/search_white_48dp.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,20 +87,26 @@ footer li {
 footer li a:hover {
   color: #0D6EFD;
 }
-footer a, footer a:link, footer a:visited {
+footer a,
+footer a:link,
+footer a:visited {
   color: white;
   text-decoration: none;
 }
 footer .container-xl {
   display: grid;
-  align-items: start;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  align-items: start;
   min-height: 200px;
   column-gap: 20px;
 }
 footer .footer_tarjeta {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: top;
   flex-direction: column;
   margin-top: 20px;
 }
@@ -113,6 +119,9 @@ footer #contacto li {
   footer .container-xl {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: top;
   }
   footer .container-xl div {
     height: 130px;
@@ -131,7 +140,9 @@ body main#index .buscador {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
   height: 450px;
 }
-body main#index .buscador h1, body main#index .buscador h2, body main#index .buscador p {
+body main#index .buscador h1,
+body main#index .buscador h2,
+body main#index .buscador p {
   text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
@@ -157,10 +168,12 @@ body main#index .tipo-operacion button {
 body main#index .buscador-barra {
   display: grid;
   grid-template-columns: 177px auto 55px;
-  height: 55px;
+  grid-template-rows: 55px;
   font-size: 16px;
 }
-body main#index .buscador-barra select, body main#index .buscador-barra input, body main#index .buscador-barra button {
+body main#index .buscador-barra select,
+body main#index .buscador-barra input,
+body main#index .buscador-barra button {
   border-width: 0px;
   height: 55px;
   font-size: 16px;
@@ -225,6 +238,9 @@ body main#index .informacion iframe {
   body main#index .buscador .buscador-barra {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
   body main#index .buscador .buscador-barra input {
     border-radius: 10px;
@@ -284,13 +300,16 @@ body main#buscar aside .filtros .filtros-card {
   padding: 10px;
   border-bottom: 1px solid #171b1f;
 }
-body main#buscar aside .filtros ul, body main#buscar aside .filtros input[type=text], body main#buscar aside .filtros h2 {
+body main#buscar aside .filtros ul,
+body main#buscar aside .filtros input[type=text],
+body main#buscar aside .filtros h2 {
   margin-bottom: 10px;
 }
 body main#buscar aside .filtros h2 {
   font-size: 26px;
 }
-body main#buscar aside .filtros input[type=text], body main#buscar aside .filtros h2 {
+body main#buscar aside .filtros input[type=text],
+body main#buscar aside .filtros h2 {
   width: 100%;
 }
 body main#buscar section {
@@ -305,18 +324,24 @@ body main#buscar section h1 {
 }
 body main#buscar section .Buscador {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
 }
 body main#buscar section .Buscador .filtros {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
 }
 body main#buscar section .Buscador .filtros div {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
 }
 body main#buscar section .Buscador .filtros div span {
@@ -327,8 +352,10 @@ body main#buscar section .Buscador .filtros button {
 }
 body main#buscar section .tarjetas-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 body main#buscar section .card-container {
   padding: 5px;
@@ -348,9 +375,12 @@ body main#buscar section .card {
 body main#buscar section .card .carousel-inner {
   height: 250px;
 }
-body main#buscar section .card-body ul, body main#buscar section .card-body li {
+body main#buscar section .card-body ul,
+body main#buscar section .card-body li {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
   align-items: center;
   padding-left: 0px;
   padding-right: 10px;
@@ -372,9 +402,12 @@ body main#buscar section .tarjeta div.tarjeta-img {
   text-align: center;
 }
 body main#buscar section .tarjeta div.info {
-  position: relative;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: top;
+  position: relative;
   padding: 10px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -382,9 +415,12 @@ body main#buscar section .tarjeta div.info {
 body main#buscar section .tarjeta div.info li * {
   margin: 5px;
 }
-body main#buscar section .tarjeta div.info ul, body main#buscar section .tarjeta div.info li {
+body main#buscar section .tarjeta div.info ul,
+body main#buscar section .tarjeta div.info li {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
   align-items: center;
 }
 body main#buscar section .tarjeta div.info .valor {
@@ -395,7 +431,10 @@ body main#buscar section .tarjeta div.info .expensas {
 }
 body main#buscar section .tarjeta div.info .tarjeta-contact {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: right;
+  align-items: top;
   position: absolute;
   left: 10px;
   right: 10px;
@@ -464,7 +503,8 @@ body {
   background-color: #171b1f;
   color: white;
 }
-body main#seguro h3, body main#seguro p {
+body main#seguro h3,
+body main#seguro p {
   margin: 0;
   font-size: 16px;
 }
@@ -564,19 +604,23 @@ body main#profile button {
   width: 188px;
   font-size: 15px;
 }
-body main#profile #email, body main#profile #password {
+body main#profile #email,
+body main#profile #password {
   margin: 15px 0px;
 }
-body main#profile #email span, body main#profile #password span {
+body main#profile #email span,
+body main#profile #password span {
   margin-right: 20px;
 }
-body main#profile #email a, body main#profile #password a {
+body main#profile #email a,
+body main#profile #password a {
   color: #0D6EFD;
   margin: 0px 20px;
   padding: 10px 0px;
   text-decoration: none;
 }
-body main#profile #email a:hover, body main#profile #password a:hover {
+body main#profile #email a:hover,
+body main#profile #password a:hover {
   color: #0D6EFD;
   margin: 0px 20px;
   padding: 10px 0px;
@@ -592,7 +636,6 @@ body main#profile .grid-item {
   margin-bottom: 15px;
 }
 body main#profile .grid-item input[type=text] {
-  display: grid;
   margin-top: 10px;
   padding: 0px 15px;
   height: 40px;
