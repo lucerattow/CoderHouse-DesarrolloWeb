@@ -1,44 +1,45 @@
-@import '../base/variables';
-@import '../base/maps';
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/mixins";
 
 body {
-    background-color: $color-background;
-    color: $color-texto;
+	background-color: $color-background;
+	color: $color-texto;
 
-    main#publicar {
-        h1 {
-            margin-bottom: 10px;
-        }
+	main#publicar {
+		h1 {
+			margin-bottom: 10px;
+		}
 
-        section {
-            padding: 10px;
-            flex-direction: column;
+		section {
+			padding: 10px;
+			flex-direction: column;
 
-            .imagen {
-                background-color: white;
-                overflow: hidden;
-                height: 200px;
-                border-radius: map-get($borderad, "big");
-            }
+			.imagen {
+				background-color: white;
+				overflow: hidden;
+				height: 200px;
+				border-radius: map-get($borderad, "big");
+			}
 
-            .info {
-                padding-top: 20px;
-                padding-bottom: 20px;
-                height: 250px;
-            }
-        }
+			.info {
+				padding-top: 20px;
+				padding-bottom: 20px;
+				height: 250px;
+			}
+		}
 
-        .content {
-            flex-wrap: wrap;
-        }
+		.content {
+			flex-wrap: wrap;
+		}
 
-        @media screen and (max-width: 920px) {
-            .col-6 {
-                width: 100%;
-            }
-            .info {
-                height: auto!important;
-            }
-        }
-    }
+		@media screen and (max-width: 920px) {
+			.col-6 {
+				width: 100%;
+			}
+			.info {
+				height: auto !important;
+			}
+		}
+	}
 }

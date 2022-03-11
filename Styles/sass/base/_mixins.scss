@@ -1,0 +1,13 @@
+@mixin displayflex($flex-dir, $flex-wrap, $horizontal-align, $vertical-aling) {
+	display: flex;
+	flex-direction: $flex-dir;
+	flex-wrap: $flex-wrap;
+	justify-content: $horizontal-align;
+	align-items: $vertical-aling;
+}
+
+@mixin displaygrid($columns, $rows) {
+	display: grid;
+	grid-template-columns: $columns;
+	grid-template-rows: $rows;
+}

@@ -1,0 +1,62 @@
+Index.html:
+
+    Inclui las etiquetas meta para description y keywords:
+
+    <meta name="description" content="Encontrá propiedades e inmuebles en venta y alquiler, casas, departamentos, terrenos, locales, oficinas, quintas, PH, cocheras y más en Propiedades Locas.">
+    <meta name="keywords" content="Alquiler, Alquileres, Casa, Casas, Departamento, Departamentos, Depto, Deptos, Terrenos, Local, Locales, Tienda, Tiendas, Oficina, Oficinas, Quinta, Quintas, PH, Cochera, Cocheras">
+
+    Modifique el titulo de la pagina:
+
+    <title>Venta y alquiler de propiedades: departamentos, casas, terrenos, oficinas y más - Propiedades Locas</title>
+
+Buscar.html:
+
+    Inclui las etiquetas meta para description y keywords:
+
+    <meta name="description" content="Encontrá en Propiedades Locas más de 100.000 departamentos en venta o alquiler. ¡Tenemos las mejores propiedades para tu búsqueda!">
+    <meta name="keywords" content="Buscar, Encontrar, Alquiler, Alquileres, Casa, Casas, Departamento, Departamentos, Depto, Deptos, Terrenos, Local, Locales, Tienda, Tiendas, Oficina, Oficinas, Quinta, Quintas, PH, Cochera, Cocheras">
+
+    Modifique el titulo de la pagina:
+
+    <title>Buscar departamentos en Alquiler - Propiedades Locas</title>
+
+    En la seccion "Aside" quite todos los h2 y los reemplaze por p, ya que simplemente son filtros y no es informacion interesante para el motor de busqueda
+
+Perfil.html:
+
+    Inclui las etiquetas meta para description y keywords:
+
+    <meta name="description" content="Edita los datos de tu usuario de Propiedades Locas">
+    <meta name="keywords" content="User, Usuario, Perfil, Editar, Personalizar, modificar, datos personales">
+
+    Modifique el titulo de la pagina:
+
+    <title>Mi cuenta - Propiedades Locas</title>
+
+Publicar.html:
+
+    Inclui las etiquetas meta para description y keywords:
+
+    <meta name="Publicá departamentos, casas, terrenos, oficinas y más en venta o alquiler en Propiedades Locas.
+    Abonos especiales para Inmobiliarias. Gestioná tus propiedades con Propiedades Locas y obtené beneficios exclusivos!">
+    <meta name="keywords" content="Publicar, Alquilar, Departamento, Casa, Depto, Terreno, Local, Tienda, Oficina, Cochera, Inmobiliaria">
+
+    Modifique el titulo de la pagina:
+
+    <title>Publicar propiedades, venta o alquiler - Propiedades Locas</title>
+
+Seguro.html:
+
+    Inclui las etiquetas meta para description y keywords:
+
+    <meta name="Obtené tu garantía para alquilar en 24hs y al precio mas bajo del mercado.
+    100% online, fácil y desde la comodidad de tu casa. Seguros de caución en 24hs.">
+    <meta name="keywords" content="Seguro, Garantia, Seguro de caucion, Seguro inmobiliario, Garantia inmobiliaria">
+
+    Modifique el titulo de la pagina:
+
+    <title>Seguro de caucion para tus alquileres - Propiedades Locas</title>
+
+sitemap.xml:
+
+    Cree este archivo con el mapa del sitio.
