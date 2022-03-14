@@ -7,25 +7,25 @@
         <priority>1</priority>
     </url>
     <url>
-        <loc>/Buscar.html</loc>
+        <loc>Views/Buscar.html</loc>
         <lastmod>2022-02-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>/Seguro.html</loc>
+        <loc>Views/Seguro.html</loc>
         <lastmod>2022-02-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>/Publicar.html</loc>
+        <loc>Views/Publicar.html</loc>
         <lastmod>2022-02-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/Perfil.html</loc>
+        <loc>Views/Perfil.html</loc>
         <lastmod>2022-02-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.3</priority>
