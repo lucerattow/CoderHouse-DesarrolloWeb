@@ -1,0 +1,14 @@
+header {
+    .nav-item {
+        a {
+            &.selected {
+                color: #3c8aff!important;
+            }
+
+            &:hover {
+                transition: 0.5s;
+                color: #3c8aff!important;
+            }
+        }
+    }
+}

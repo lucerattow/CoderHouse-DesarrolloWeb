@@ -67,6 +67,14 @@
   background-size: cover;
 }
 
+header .nav-item a.selected {
+  color: #3c8aff !important;
+}
+header .nav-item a:hover {
+  transition: 0.5s;
+  color: #3c8aff !important;
+}
+
 footer {
   background-color: #1b1b1b;
 }
