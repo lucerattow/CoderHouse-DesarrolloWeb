@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- SEO -->
-        <meta name="description" content="Edita los datos de tu usuario de Propiedades Locas">
-        <meta name="keywords" content="User, Usuario, Perfil, Editar, Personalizar, modificar, datos personales">
-        <title>Mi cuenta - Propiedades Locas</title>
+        <meta name="description" content="Encontrá propiedades e inmuebles en venta y alquiler, casas, departamentos, terrenos, locales, oficinas, quintas, PH, cocheras y más en Propiedades Locas.">
+        <meta name="keywords" content="Alquiler, Alquileres, Casa, Casas, Departamento, Departamentos, Depto, Deptos, Terrenos, Local, Locales, Tienda, Tiendas, Oficina, Oficinas, Quinta, Quintas, PH, Cochera, Cocheras">
+        <title>Venta y alquiler de propiedades: departamentos, casas, terrenos, oficinas y más - Propiedades Locas</title>
 
         <!-- FavIcon -->
-        <link rel="icon" type="image/x-icon" href="../Images/logos/propiedades-locas-icon.png">
+        <link rel="icon" type="image/x-icon" href="Images/logos/propiedades-locas-icon.png">
 
         <!-- Incluyo las fonts de google -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +25,9 @@
 
         <!-- Hoja de estilos -->
         <link rel="stylesheet" href="../styles/styles.css">
-
     </head>
     <body>
-        <!-- Header de la pagina, nav bar y perfil de usuario-->
+        <!-- Bootstrap Navbar: https://getbootstrap.com/docs/5.1/components/navbar/? -->
         <header class="bg-dark">
             <div class="container-xl">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -60,52 +59,38 @@
         </header>
 
         <!-- Contenido de la pagina -->
-        <main id="profile">
-            <div class="container-xl">
-                <h1>Datos personales</h1>
-                <h2>Datos de la cuenta</h2>
+        <main id="index">
+            <div class="buscador">
+                <div class="container-xl">
+                    <h1>Propiedades en venta y alquiler</h1>
+                    <h2>Un lugar para cada etapa de tu vida</h2>
+                    <p>+420 propiedades publicadas por dia!</p>
+                    <div class="tipo-operacion">
+                        <button class="btn btn-primary">Venta</button>
+                        <button class="btn btn-primary">Alquiler</button>
+                    </div>
+                    <div class="buscador-barra">
+                        <select class="form-select">
+                            <option value="Departamento">Departamento</option>
+                            <option value="PH">PH</option>
+                            <option value="Casa">Casa</option>
+                            <option value="Quinta">Quinta</option>
+                            <option value="Local">Local</option>
+                        </select>
+                        <input type="text" class="form-control" placeholder="Ubicación ej: Belgrano, Capital Federal">
+                        <button class="btn btn-primary">
+                            <span>Buscar</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-                <div id="email">
-                    <span>Email: lucas.ceratto77@gmail.com</span>
-                    <a href="#" class="text-primary">Cambiar Email</a>
-                </div>
-
-                <div id="password">
-                    <span>Contraseña: **********</span>
-                    <a href="#" class="text-primary">Cambiar Contraseña</a>
-                </div>
-
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-name">
-                        Nombre:
-                        <input class="form-control" type="text" id="txt-name">
-                    </label>
-                </div>
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-lastname">
-                        Apellido:
-                        <input class="form-control" type="text" id="txt-lastname">
-                    </label>
-                </div>
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-phone">
-                        Telefono:
-                        <input class="form-control" type="text" id="txt-phone">
-                    </label>
-                </div>
-
-                <h2>Suscripciones / Desuscripciones</h2>
-                <ul>
-                    <li><label for="option-1"><input class="form-check-input" type="checkbox" id="option-1"> Últimas herramientas e
-                            información nuestra</label></li>
-                    <li><label for="option-2"><input class="form-check-input" type="checkbox" id="option-2"> Permita que otros usuarios del
-                            sitio se contacten con Ud.</label></li>
-                    <li><label for="option-3"><input class="form-check-input" type="checkbox" id="option-3"> Noticias del mercado</label>
-                    </li>
-                    <li><label for="option-4"><input class="form-check-input" type="checkbox" id="option-4"> Promociones, Sorteos y
-                            eventos</label></li>
-                </ul>
-                <button class="btn btn-primary">Guardar</button>
+            <div class="container informacion">
+                <h3>¡Encontrá las mejores propiedades en venta y alquiler!</h3>
+                <iframe width="700" height="450" src="https://www.youtube.com/embed/bLx0c-dqow8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </main>
 

@@ -655,4 +655,39 @@ body main#profile .grid-item input[type=text] {
   }
 }
 
+body {
+  background-color: #171b1f;
+  color: white;
+}
+body main#login div#form {
+  margin-top: 150px;
+  margin-bottom: 300px;
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #212529;
+}
+body main#login button {
+  width: 100%;
+  max-width: 188px;
+  font-size: 15px;
+}
+body main#login #email,
+body main#login #password {
+  margin-bottom: 15px;
+}
+body main#login #email input[type=text],
+body main#login #password input[type=text] {
+  margin-top: 10px;
+  padding: 0px 15px;
+  height: 40px;
+  outline: none;
+}
+body main#login #email-error {
+  display: none;
+  margin-bottom: 10px;
+  color: #f52828;
+}
+
 /*# sourceMappingURL=styles.css.map */

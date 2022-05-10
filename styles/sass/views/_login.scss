@@ -1,0 +1,44 @@
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/mixins";
+
+body {
+	background-color: $color-background;
+	color: $color-texto;
+
+	main#login {
+		div#form {
+			margin-top: 150px;
+			margin-bottom: 300px;
+			width: 100%;
+			max-width: 600px;
+			padding: 10px;
+			border-radius: 10px;
+			background-color: $color-background-header;
+		}
+
+		button {
+			width: 100%;
+			max-width: 188px;
+			font-size: 15px;
+		}
+
+		#email,
+		#password {
+			margin-bottom: 15px;
+
+			input[type="text"] {
+				margin-top: 10px;
+				padding: 0px 15px;
+				height: 40px;
+				outline: none;
+			}
+		}
+
+		#email-error {
+			display: none;
+			margin-bottom: 10px;
+			color: rgb(245, 40, 40);
+		}
+	}
+}

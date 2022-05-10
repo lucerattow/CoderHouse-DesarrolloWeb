@@ -60,52 +60,27 @@
         </header>
 
         <!-- Contenido de la pagina -->
-        <main id="profile">
-            <div class="container-xl">
-                <h1>Datos personales</h1>
-                <h2>Datos de la cuenta</h2>
+        <main id="login">
+            <div class="container-xl d-flex justify-content-center">
+                <div id="form">
+                    <div id="email" class="grid-item d-block">
+                        <label class="d-block" for="txt-name">
+                            Email:
+                            <input id="userEmail" class="form-control" type="text" id="txt-name">
+                        </label>
+                    </div>
 
-                <div id="email">
-                    <span>Email: lucas.ceratto77@gmail.com</span>
-                    <a href="#" class="text-primary">Cambiar Email</a>
-                </div>
+                    <div id="password" class="grid-item d-block">
+                        <label class="d-block" for="txt-name">
+                            Contraseña:
+                            <input id="userPassword" class="form-control" type="text" id="txt-name">
+                        </label>
+                    </div>
 
-                <div id="password">
-                    <span>Contraseña: **********</span>
-                    <a href="#" class="text-primary">Cambiar Contraseña</a>
-                </div>
+                    <span id="email-error">empty</span>
 
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-name">
-                        Nombre:
-                        <input class="form-control" type="text" id="txt-name">
-                    </label>
+                    <button id="submit" class="btn btn-primary">Inisiar sesion</button>
                 </div>
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-lastname">
-                        Apellido:
-                        <input class="form-control" type="text" id="txt-lastname">
-                    </label>
-                </div>
-                <div class="grid-item d-block">
-                    <label class="d-block" for="txt-phone">
-                        Telefono:
-                        <input class="form-control" type="text" id="txt-phone">
-                    </label>
-                </div>
-
-                <h2>Suscripciones / Desuscripciones</h2>
-                <ul>
-                    <li><label for="option-1"><input class="form-check-input" type="checkbox" id="option-1"> Últimas herramientas e
-                            información nuestra</label></li>
-                    <li><label for="option-2"><input class="form-check-input" type="checkbox" id="option-2"> Permita que otros usuarios del
-                            sitio se contacten con Ud.</label></li>
-                    <li><label for="option-3"><input class="form-check-input" type="checkbox" id="option-3"> Noticias del mercado</label>
-                    </li>
-                    <li><label for="option-4"><input class="form-check-input" type="checkbox" id="option-4"> Promociones, Sorteos y
-                            eventos</label></li>
-                </ul>
-                <button class="btn btn-primary">Guardar</button>
             </div>
         </main>
 
@@ -169,5 +144,6 @@
 
         <!-- Mis scripts -->
         <script src="../src/userAccounts.js"></script>
+        <script src="../src/Login.js"></script>
     </body>
 </html>
