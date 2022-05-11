@@ -516,6 +516,9 @@ body main#seguro p {
   margin: 0;
   font-size: 16px;
 }
+body main#seguro .card {
+  margin-bottom: 10px;
+}
 body main#seguro .image {
   margin-right: 20px;
   width: 60px;
@@ -530,6 +533,15 @@ body main#seguro .card-content {
 }
 body main#seguro .card-content label {
   margin-top: 5px;
+}
+body main#seguro .btn {
+  margin: 0px 21px;
+  margin-bottom: 10px;
+}
+body main#seguro #calc-result {
+  display: none;
+  margin: 0px 21px;
+  margin-bottom: 10px;
 }
 body main#seguro .requeriments {
   padding-top: 20px;

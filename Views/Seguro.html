@@ -114,22 +114,22 @@
                             <div class="card-header">Obtené tu garantía al mejor precio</div>
                             <div class="card-footer d-flex">
                                 <div class="card-content col-6 d-flex">
-                                    <label for="RadVivienda"><input class="form-check-input" type="radio" name="TipoPropiedad" id="RadVivienda"> Vivienda</label>
-                                    <label for="txtValor">Valor del alquiler *<input class="form-control w-100" type="text" id="txtValor"></label>
-                                    <label for="txtExpensas">Expensas (si tuviera)<input class="form-control w-100" type="text" id="txtExpensas"></label>
+                                    <label for="txtRent">Valor del alquiler *<input class="form-control w-100" type="text" id="txtRent"></label>
+                                    <label for="txtExpe">Expensas (si tuviera)<input class="form-control w-100" type="text" id="txtExpe"></label>
                                 </div>
                                 <div class="card-content col-6 d-flex">
-                                    <label for="RadComercio"><input class="form-check-input" type="radio" name="TipoPropiedad" id="RadComercio"> Comercio</label>
-                                    <label for="Duracion">Duracion *
-                                        <select class="form-select w-100" name="Duracion" id="Duracion">
+                                    <label for="cbDuracion">Duracion *
+                                        <select class="form-select w-100" name="Duracion" id="cbDuracion">
                                             <option value="1 Años">1 Años</option>
                                             <option value="2 Años">2 Años</option>
                                             <option value="3 Años">3 Años</option>
                                         </select>
                                     </label>
-                                    <label for="txtServicios">Servicios (luz, gas)<input class="form-control w-100" type="text" id="txtServicios"></label>
+                                    <label for="txtServ">Servicios (luz, gas)<input class="form-control w-100" type="text" id="txtServ"></label>
                                 </div>
                             </div>
+                            <button id="calcular" class="btn btn-primary">Calcular</button>
+                            <span id="calc-result"></span>
                         </div>
 
                     </section>
@@ -260,5 +260,6 @@
 
         <!-- Mis scripts -->
         <script src="../src/userAccounts.js"></script>
+        <script src="../src/Surety.js"></script>
     </body>
 </html>
