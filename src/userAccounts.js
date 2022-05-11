@@ -70,7 +70,7 @@ if (user != null) {
 } else {
 	ulUser.innerHTML = `
         <li>
-            <img class="img-circular img-smaller" src="../Images/users/default.jpg" alt="Foto de usuario">
+            <img class="img-circular img-smaller" src="../images/users/default.jpg" alt="Foto de usuario">
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link" href="../views/Login.html" id="navbarDropdown" role="button">
