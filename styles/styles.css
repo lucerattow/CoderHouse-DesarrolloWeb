@@ -20,49 +20,49 @@
 }
 
 .icono-superficie {
-  background-image: url(../Images/propiedades/icons/004_square_meter.svg);
+  background-image: url(../images/propiedades/icons/004_square_meter.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icono-dormitorios {
-  background-image: url(../Images/propiedades/icons/001_bed.svg);
+  background-image: url(../images/propiedades/icons/001_bed.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icono-antiguedad {
-  background-image: url(../Images/propiedades/icons/009_calendar.svg);
+  background-image: url(../images/propiedades/icons/009_calendar.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icono-baño {
-  background-image: url(../Images/propiedades/icons/003_bath.svg);
+  background-image: url(../images/propiedades/icons/003_bath.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icono-whatsapp {
-  background-image: url(../Images/icons/whatsapp.svg);
+  background-image: url(../images/icons/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icono-filtros {
-  background-image: url(../Images/icons/filter_list_white_24dp.svg);
+  background-image: url(../images/icons/filter_list_white_24dp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icon-buscar, body main#index .buscador-barra button {
-  background-image: url(../Images/icons/search_white_48dp.svg);
+  background-image: url(../images/icons/search_white_48dp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .icon-basura {
-  background-image: url(../Images/icons/delete_black_white_48dp.svg);
+  background-image: url(../images/icons/delete_black_white_48dp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -76,7 +76,7 @@ header .nav-item a:hover {
 }
 
 footer {
-  background-color: #1b1b1b;
+  background-color: rgb(27, 27, 27);
 }
 footer img {
   height: 40px;
@@ -137,11 +137,11 @@ footer #contacto li {
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#index .buscador {
-  background-image: url(../Images/content/image-hero-a.jpg);
+  background-image: url(../images/content/image-hero-a.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@ body main#index .informacion iframe {
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#buscar aside {
@@ -306,7 +306,7 @@ body main#buscar aside .filtros {
 }
 body main#buscar aside .filtros .filtros-card {
   padding: 10px;
-  border-bottom: 1px solid #171b1f;
+  border-bottom: 1px solid rgb(23, 27, 31);
 }
 body main#buscar aside .filtros ul,
 body main#buscar aside .filtros input[type=text],
@@ -371,7 +371,7 @@ body main#buscar section .card-container {
 }
 body main#buscar section .card {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
-  background-color: #212529;
+  background-color: rgb(33, 37, 41);
   border: 0px solid black;
   border-radius: 10px;
   display: inline-block;
@@ -508,7 +508,7 @@ body main#buscar section .tarjeta div.info .tarjeta-contact button.btn-whatsapp 
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#seguro h3,
@@ -560,7 +560,7 @@ body main#seguro .requeriments {
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#publicar h1 {
@@ -594,7 +594,7 @@ body main#publicar .content {
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#profile {
@@ -668,7 +668,7 @@ body main#profile .grid-item input[type=text] {
 }
 
 body {
-  background-color: #171b1f;
+  background-color: rgb(23, 27, 31);
   color: white;
 }
 body main#login div#form {
@@ -678,7 +678,7 @@ body main#login div#form {
   max-width: 600px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #212529;
+  background-color: rgb(33, 37, 41);
 }
 body main#login button {
   width: 100%;
@@ -699,7 +699,7 @@ body main#login #password input[type=text] {
 body main#login #email-error {
   display: none;
   margin-bottom: 10px;
-  color: #f52828;
+  color: rgb(245, 40, 40);
 }
 
 /*# sourceMappingURL=styles.css.map */
