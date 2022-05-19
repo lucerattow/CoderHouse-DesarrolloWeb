@@ -62,7 +62,7 @@
 }
 
 .icon-basura {
-  background-image: url(../images/icons/delete_black_white_48dp.svg);
+  background-image: url(../images/icons/delete_white_48dp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -375,7 +375,7 @@ body main#buscar section .card {
   border: 0px solid black;
   border-radius: 10px;
   display: inline-block;
-  margin: 10px 0px 10px 0px;
+  margin: 0px;
   overflow: hidden;
   width: 100%;
   height: 500px;
