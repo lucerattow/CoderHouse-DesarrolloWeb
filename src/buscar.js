@@ -1,5 +1,6 @@
 class Apartment {
-	constructor(address, caption, rent, expenses, imageArray, area, bedrooms, antiquity) {
+	constructor(id, address, caption, rent, expenses, imageArray, area, bedrooms, antiquity) {
+		this.id = id;
 		this.address = address;
 		this.caption = caption;
 		this.rent = parseFloat(rent);
@@ -12,65 +13,19 @@ class Apartment {
 	}
 }
 
-const apartments = [];
-apartments.push(
-	new Apartment(
-		"Franklin D Roosevelt 1600, Piso 1",
-		"Departamento en Venta en Belgrano Barrancas, Belgrano", 50000, 11300,
-		[
-			"../images/propiedades/001/01.jpg",
-			"../images/propiedades/001/02.jpg",
-			"../images/propiedades/001/03.jpg",
-			"../images/propiedades/001/04.jpg"
-		], 33, 1, 7
-	)
-);
-apartments.push(
-	new Apartment(
-		"Palpa 2500",
-		"Departamento en Venta en Belgrano C, Belgrano", 47000, 13000,
-		[
-			"../images/propiedades/002/01.jpg",
-			"../images/propiedades/002/02.jpg",
-			"../images/propiedades/002/03.jpg",
-			"../images/propiedades/002/04.jpg"
-		], 55, 2, 15
-	)
-);
-apartments.push(
-	new Apartment(
-		"AV. DEL BARCO CENTENERA 100",
-		"Departamento en Venta en Primera Junta, Caballito", 65000, 5400,
-		[
-			"../images/propiedades/003/01.jpg",
-			"../images/propiedades/003/02.jpg",
-			"../images/propiedades/003/03.jpg",
-			"../images/propiedades/003/04.jpg"
-		], 70, 2, 1
-	)
-);
-apartments.push(
-	new Apartment(
-		"Mariscal Sucre 1500, Piso 5",
-		"Departamento en Venta en Belgrano Barrancas, Belgrano", 55000, 15400,
-		[
-			"../images/propiedades/004/01.jpg",
-			"../images/propiedades/004/02.jpg",
-			"../images/propiedades/004/03.jpg",
-			"../images/propiedades/004/04.jpg"
-		], 70, 2, 1
-	)
-);
+
+fetch('../data/apartments.json')
+	.then((res) => res.json())
+	.then((data) => {
+		data.forEach(x => displayApartment(x))
+	})
+	.catch((err) => {
+		console.log(err)
+	});
 
 let displayApartmentCount = 0;
 const divContainer = document.getElementById("apartment-container");
 divContainer.innerHTML = "";
-
-apartments.forEach(x => {
-	displayApartment(x);
-});
-
-displayApartment(...apartments);
 
 function displayApartment(apartment) {
 	const { imageArray, rent, expenses, area, bedrooms, antiquity, address, caption } = apartment;

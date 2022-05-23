@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "address": "Franklin D Roosevelt 1600, Piso 1",
+        "caption": "Departamento en Venta en Belgrano Barrancas, Belgrano",
+        "rent": 50000,
+        "expenses": 11300,
+        "imageArray": [
+            "../images/propiedades/001/01.jpg",
+            "../images/propiedades/001/02.jpg",
+            "../images/propiedades/001/03.jpg",
+            "../images/propiedades/001/04.jpg"
+        ],
+        "area": 33,
+        "bedrooms": 1,
+        "antiquity": 7
+    },
+    {
+        "id": 1,
+        "address": "Palpa 2500",
+        "caption": "Departamento en Venta en Belgrano C, Belgrano",
+        "rent": 47000,
+        "expenses": 13000,
+        "imageArray": [
+            "../images/propiedades/002/01.jpg",
+            "../images/propiedades/002/02.jpg",
+            "../images/propiedades/002/03.jpg",
+            "../images/propiedades/002/04.jpg"
+        ],
+        "area": 55,
+        "bedrooms": 2,
+        "antiquity": 15
+    },
+    {
+        "id": 2,
+        "address": "AV. DEL BARCO CENTENERA 100",
+        "caption": "Departamento en Venta en Primera Junta, Caballito",
+        "rent": 65000,
+        "expenses": 5400,
+        "imageArray": [
+            "../images/propiedades/003/01.jpg",
+            "../images/propiedades/003/02.jpg",
+            "../images/propiedades/003/03.jpg",
+            "../images/propiedades/003/04.jpg"
+        ],
+        "area": 70,
+        "bedrooms": 2,
+        "antiquity": 1
+    },
+    {
+        "id": 3,
+        "address": "Mariscal Sucre 1500, Piso 5",
+        "caption": "Departamento en Venta en Belgrano Barrancas, Belgrano",
+        "rent": 55000,
+        "expenses": 15400,
+        "imageArray": [
+            "../images/propiedades/004/01.jpg",
+            "../images/propiedades/004/02.jpg",
+            "../images/propiedades/004/03.jpg",
+            "../images/propiedades/004/04.jpg"
+        ],
+        "area": 60,
+        "bedrooms": 1,
+        "antiquity": 5
+    }
+]

@@ -1,0 +1,1 @@
+setTimeout(() => sendMessage("Web en desarrollo", true, 3000, "rgb(45, 45, 45)", "white"), 5000);

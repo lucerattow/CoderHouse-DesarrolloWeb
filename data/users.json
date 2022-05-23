@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "email": "lucasceratto@gmail.com",
+        "password": "abc123",
+        "picture": "../images/users/lucasceratto@gmail.com.jpg",
+        "name": "Lucas",
+        "lastname": "Ceratto",
+        "telephone": "11 5555 6666"
+    },
+    {
+        "id": 1,
+        "email": "lucasceratto@gmail1.com",
+        "password": "abc123",
+        "picture": "../images/users/lucasceratto@gmail.com.jpg",
+        "name": "Lucas",
+        "lastname": "Ceratto",
+        "telephone": "11 5555 6666"
+    },
+    {
+        "id": 2,
+        "email": "lucasceratto@gmail2.com",
+        "password": "abc123",
+        "picture": "../images/users/lucasceratto@gmail.com.jpg",
+        "name": "Lucas",
+        "lastname": "Ceratto",
+        "telephone": "11 5555 6666"
+    }
+]
