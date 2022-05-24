@@ -50,6 +50,7 @@ body {
 		.buscador-barra {
 			@include displaygrid(177px auto 55px, 55px);
 
+			padding-top: 130px;
 			font-size: 16px;
 
 			select,
@@ -116,7 +117,7 @@ body {
 
 		@media screen and (max-width: 650px) {
 			.buscador {
-				height: 500px;
+				height: 600px;
 
 				.tipo-operacion {
 					padding-top: 40px;
@@ -146,12 +147,10 @@ body {
 					}
 
 					button {
+						background-size: contain;
+    					background-position: right;
 						span {
 							display: inline-block;
-						}
-
-						img {
-							display: none;
 						}
 					}
 				}
@@ -169,12 +168,6 @@ body {
 					padding: 10px;
 					width: 100%;
 				}
-			}
-		}
-
-		@media screen and (max-width: 375px) {
-			.buscador {
-				height: 530px;
 			}
 		}
 	}

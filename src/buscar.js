@@ -1,7 +1,8 @@
 class Apartment {
-	constructor(id, address, caption, rent, expenses, imageArray, area, bedrooms, antiquity) {
+	constructor(id, address, type, caption, rent, expenses, imageArray, area, bedrooms, antiquity) {
 		this.id = id;
 		this.address = address;
+		this.type = type;
 		this.caption = caption;
 		this.rent = parseFloat(rent);
 		this.expenses = parseFloat(expenses);
@@ -13,14 +14,20 @@ class Apartment {
 	}
 }
 
-
 fetch('../data/apartments.json')
 	.then((res) => res.json())
 	.then((data) => {
-		data.forEach(x => displayApartment(x))
+		const urlParams = new URLSearchParams(window.location.search);
+		let address = urlParams.get('address');
+		let propType = urlParams.get('propType');
+
+		data.filter(x => x.address.includes(address) && x.type == propType)
+			.forEach(x => {
+				displayApartment(x);
+			})
 	})
 	.catch((err) => {
-		console.log(err)
+		sendMessage(err, true, 5000, "rgb(245, 45, 45)", "white");
 	});
 
 let displayApartmentCount = 0;
@@ -44,47 +51,45 @@ function displayApartment(apartment) {
 		}
 	});
 
-	let innerHTML = "";
-	innerHTML += `<div class="card-container col-6">`;
-	innerHTML += `    <div class="card text-light bg-dark">`;
-	innerHTML += `        <div id="carousel${displayApartmentCount}" class="carousel slide card-img-top" data-bs-ride="carousel">`;
-	innerHTML += `            <div class="carousel-indicators">`;
-	innerHTML += 		          carouserIndicators;
-	innerHTML += `            </div>`;
-	innerHTML += `            <div class="carousel-inner">`;
-	innerHTML += 		          carouselInner;
-	innerHTML += `            </div>`;
-	innerHTML += `            <button class="carousel-control-prev" type="button" data-bs-target="#carousel${displayApartmentCount}" data-bs-slide="prev">`;
-	innerHTML += `	              <span class="carousel-control-prev-icon" aria-hidden="true"></span>`;
-	innerHTML += `	              <span class="visually-hidden">Previous</span>`;
-	innerHTML += `            </button>`;
-	innerHTML += `            <button class="carousel-control-next" type="button" data-bs-target="#carousel${displayApartmentCount}" data-bs-slide="next">`;
-	innerHTML += `	              <span class="carousel-control-next-icon" aria-hidden="true"></span>`;
-	innerHTML += `	              <span class="visually-hidden">Next</span>`;
-	innerHTML += `            </button>`;
-	innerHTML += `        </div>`;
-	innerHTML += `        <div class="card-body">`;
-	innerHTML += `	          <h5 class="card-title">$${rent} +$${expenses} expensas</h5>`;
-	innerHTML += `	          <ul>`;
-	innerHTML += `                <li>`;
-	innerHTML += `		              <div class="icono-pequeño icono-superficie"></div>`;
-	innerHTML += `		              <spam>${area} m²</spam>`;
-	innerHTML += `                </li>`;
-	innerHTML += `                <li>`;
-	innerHTML += `		              <div class="icono-pequeño icono-dormitorios"></div>`;
-	innerHTML += `		              <spam>${bedrooms}</spam>`;
-	innerHTML += `                </li>`;
-	innerHTML += `                <li>`;
-	innerHTML += `		              <div class="icono-pequeño icono-antiguedad"></div>`;
-	innerHTML += `		              <spam>${antiquity}</spam>`;
-	innerHTML += `                </li>`;
-	innerHTML += `	          </ul>`;
-	innerHTML += `	          <h5 class="card-title">${address}</h5>`;
-	innerHTML += `	          <p class="card-text">${caption}</p>`;
-	innerHTML += `	          <button class="btn btn-primary">Contactar</button>`;
-	innerHTML += `        </div>`;
-	innerHTML += `    </div>`;
-	innerHTML += `</div>`;
-
-	divContainer.innerHTML += innerHTML;
+	divContainer.innerHTML += `
+		<div class="card-container col-6">
+			<div class="card text-light bg-dark">
+				<div id="carousel${displayApartmentCount}" class="carousel slide card-img-top" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						${carouserIndicators}
+					</div>
+					<div class="carousel-inner">
+						${carouselInner}
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carousel${displayApartmentCount}" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carousel${displayApartmentCount}" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">$${rent} +$${expenses} expensas</h5>
+					<ul>
+						<li>
+							<div class="icono-pequeño icono-superficie"></div>
+							<spam>${area} m²</spam>
+						</li>
+						<li>
+							<div class="icono-pequeño icono-dormitorios"></div>
+							<spam>${bedrooms}</spam>
+						</li>
+						<li>
+							<div class="icono-pequeño icono-antiguedad"></div>
+							<spam>${antiquity}</spam>
+						</li>
+					</ul>
+					<h5 class="card-title">${address}</h5>
+					<p class="card-text">${caption}</p>
+					<button class="btn btn-primary">Contactar</button>
+				</div>
+			</div>
+		</div>`;
 }

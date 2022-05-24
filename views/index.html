@@ -67,20 +67,16 @@
                     <h1>Propiedades en venta y alquiler</h1>
                     <h2>Un lugar para cada etapa de tu vida</h2>
                     <p>+420 propiedades publicadas por dia!</p>
-                    <div class="tipo-operacion">
-                        <button class="btn btn-primary">Venta</button>
-                        <button class="btn btn-primary">Alquiler</button>
-                    </div>
                     <div class="buscador-barra">
-                        <select class="form-select">
+                        <select id="prop-type" class="form-select">
                             <option value="Departamento">Departamento</option>
                             <option value="PH">PH</option>
                             <option value="Casa">Casa</option>
                             <option value="Quinta">Quinta</option>
                             <option value="Local">Local</option>
                         </select>
-                        <input type="text" class="form-control" placeholder="Ubicación ej: Belgrano, Capital Federal">
-                        <button class="btn btn-primary">
+                        <input id="prop-dir" type="text" class="form-control" placeholder="Ubicación ej: Belgrano, Capital Federal">
+                        <button id="btn-search" class="btn btn-primary">
                             <span>Buscar</span>
                         </button>
                     </div>
@@ -157,7 +153,7 @@
         <!-- Toastify-->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
         <!-- Mis scripts -->
-        <script type="text/javascript" src="../src/quickTostify.js"></script>
+        <script type="text/javascript" src="../src/utility/quickTostify.js"></script>
         <script type="text/javascript" src="../src/userAccounts.js"></script>
         <script type="text/javascript" src="../src/index.js"></script>
     </body>
