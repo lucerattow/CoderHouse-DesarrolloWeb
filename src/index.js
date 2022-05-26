@@ -7,5 +7,5 @@ const btnSearch = document.getElementById("btn-search");
 btnSearch.addEventListener("click", Search);
 
 function Search() {
-    window.location.href = `Buscar.html?address=${propDir.value}&propType=${propType.value}`;
+    window.location.href = `Buscar.html?search=${propDir.value.toLowerCase()}&propType=${propType.value.toLowerCase()}`;
 }

@@ -35,7 +35,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="Buscar.html">
+                                    <a class="nav-link active" aria-current="page" href="index.html">
                                         Buscar propiedades</a></li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="Seguro.html">
@@ -62,79 +62,37 @@
                     <div class="filtros bg-dark">
                         <div class="filtros-card">
                             <p>Filtros aplicados</p>
-                            <ul>
+                            <ul id="filtros-aplicados">
                                 <li class="tags d-inline-block rounded-pill bg-secondary">Departamento</span></li>
                                 <li class="tags d-inline-block rounded-pill bg-secondary"><span>Alquiler</span></li>
                             </ul>
-                            <button type="button" class="btn btn-outline-danger" class="trans">
-                                <i class="icon-basura icon-pequeño"></i>
-                                <span>Borrar filtros</span>
+                            <button id="btn-clear-filter" type="button" class="btn btn-outline-danger" class="trans">
+                                <div class="icon-basura icon-pequeño d-inline-block align-middle"></div>
+                                <span class="d-inline-block align-middle">Borrar filtros</span>
                             </button>
                         </div>
 
                         <div class="filtros-card">
-                            <p>Ubicacion</p>
-                            <input type="text" class="form-control" placeholder="Buscar...">
-                            <ul>
-                                <li><label for="check-01">
-                                        <input class="form-check-input" type="checkbox" id="check-01"> Palermo
-                                    </label></li>
-                                <li><label for="check-02">
-                                        <input class="form-check-input" type="checkbox" id="check-02"> Belgrano
-                                    </label></li>
-                                <li><label for="check-03">
-                                        <input class="form-check-input" type="checkbox" id="check-03"> Centro
-                                    </label></li>
-                                <li><label for="check-04">
-                                        <input class="form-check-input" type="checkbox" id="check-04"> Barrio Norte
-                                    </label></li>
-                                <li><label for="check-05">
-                                        <input class="form-check-input" type="checkbox" id="check-05"> Caballito
-                                    </label></li>
-                                <li><a href="">Ver mas...</a></li>
-                            </ul>
-                            <button type="button" class="btn btn-primary">Aplicar</button>
-                        </div>
-
-                        <div class="filtros-card">
-                            <p>Direccion</p>
-                            <input type="text" class="form-control" placeholder="Ej. Av. del Libertador">
-                            <button type="button" class="btn btn-primary">Aplicar</button>
-                        </div>
-
-                        <div class="filtros-card">
-                            <p>Tipo de operación</p>
-                            <ul>
-                                <li><label for="check-06">
-                                        <input class="form-check-input" type="checkbox" id="check-06"> Venta
-                                    </label></li>
-                                <li><label for="check-07">
-                                        <input class="form-check-input" type="checkbox" id="check-07"> Alquiler
-                                    </label></li>
-                            </ul>
-                            <button type="button" class="btn btn-primary">Aplicar</button>
+                            <p>Direccion / Localidad</p>
+                            <input id="inp-add-loc" type="text" class="form-control" placeholder="Ej. Av. del Libertador">
+                            <button id="btn-apply-add-loc" type="button" class="btn btn-primary">Aplicar</button>
                         </div>
 
                         <div class="filtros-card">
                             <p>Tipo de propiedad</p>
                             <ul>
-                                <li><label for="check-08">
-                                        <input class="form-check-input" type="checkbox" id="check-08"> Departamento
-                                    </label></li>
-                                <li><label for="check-09">
-                                        <input class="form-check-input" type="checkbox" id="check-09"> Casa
-                                    </label></li>
-                                <li><label for="check-10">
-                                        <input class="form-check-input" type="checkbox" id="check-10"> PH
-                                    </label></li>
-                                <li><label for="check-11">
-                                        <input class="form-check-input" type="checkbox" id="check-11"> Terreno
-                                    </label></li>
-                                <li><label for="check-12">
-                                        <input class="form-check-input" type="checkbox" id="check-12"> Local
-                                    </label></li>
+                                <li><label for="chk-type-departamento">
+                                        <input class="form-check-input" type="checkbox" id="chk-type-departamento"> Departamento</label></li>
+                                <li><label for="chk-type-ph">
+                                        <input class="form-check-input" type="checkbox" id="chk-type-ph"> PH</label></li>
+                                <li><label for="chk-type-casa">
+                                        <input class="form-check-input" type="checkbox" id="chk-type-casa"> Casa</label></li>
+                                <li><label for="chk-type-quinta">
+                                        <input class="form-check-input" type="checkbox" id="chk-type-quinta"> Quinta</label></li>
+                                <li><label for="chk-type-local">
+                                        <input class="form-check-input" type="checkbox" id="chk-type-local"> Local</label></li>
                             </ul>
-                            <button type="button" class="btn btn-primary">Aplicar</button>
+                            <button id="btn-apply-type" type="button" class="btn btn-primary">Aplicar</button>
                         </div>
                     </div>
                 </aside>
@@ -142,17 +100,8 @@
                 <!-- Resultados de la busqueda -->
                 <section class="col-9">
                     <div class="Buscador">
-                        <h1>Departamentos en Venta en Capital Federal</h1>
+                        <h1>Departamentos en Alquiler</h1>
                         <div class="filtros">
-                            <div>
-                                <span>Ordenar</span>
-                                <select class="form-control">
-                                    <option value="precio-low">Menor precio</option>
-                                    <option value="precio-big">Mayor precio</option>
-                                    <option value="time-low">Más nuevos</option>
-                                    <option value="time-big">Más antiguos</option>
-                                </select>
-                            </div>
                             <button type="button" class="btn btn-primary">Filtros</button>
                         </div>
                     </div>
